@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Julio Landa" 
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: cv.qmd
+        text: CV
+      - href: publicaciones.qmd
+        text: Publicaciones
+      - href: proyectos.qmd
+        text: Proyectos
+      - href: contacto.qmd
+        text: Contacto
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    lang: es
+    toc: true
+
+
+
