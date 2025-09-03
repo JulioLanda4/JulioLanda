@@ -1,0 +1,9 @@
+---
+title: "Proyectos"
+---
+
+## Proyecto 1
+Descripción breve. [Repositorio](#)
+
+## Proyecto 2
+Descripción breve. [Repositorio](#)

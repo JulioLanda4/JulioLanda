@@ -1,0 +1,9 @@
+---
+title: "Currículum"
+---
+
+- [Descargar CV (PDF)](files/CV_Julio-Landa.pdf){target=_blank}
+
+### Resumen
+- Formación: …
+- Experiencia: …

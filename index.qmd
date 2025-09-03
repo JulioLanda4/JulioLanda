@@ -1,7 +1,18 @@
 ---
-title: "Mi_pagina"
+title: "Julio Landa"
+about:
+  template: jolla
+  image: images/Perfil.jpg   # pon tu foto aquí
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/JulioLanda4
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/JulioLanda4
+    - icon: envelope
+      text: Email
+      href: "landajulioc@gmail.com"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Bienvenido(a). Breve descripción profesional (1–2 líneas).

@@ -1,0 +1,5 @@
+---
+title: "Publicaciones"
+---
+
+1. **Título**, *Revista/Conf*, Año. Autores. [DOI/Enlace](#)

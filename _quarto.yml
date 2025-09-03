@@ -1,8 +1,12 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Julio Landa" 
+  page-footer: 
+    center:  "© Julio Landa · {{< year >}}"
+  favicon: images/Perfil.jpg
   navbar:
     left:
       - href: index.qmd
@@ -21,7 +25,7 @@ format:
     theme: flatly
     css: styles.css
     lang: es
-    toc: true
+    toc: false
 
 
 
