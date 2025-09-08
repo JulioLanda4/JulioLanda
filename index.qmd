@@ -1,18 +1,39 @@
 ---
 title: "Julio Landa"
+subtitle: "Ingeniería en Energías Renovables · Desarrollo Web/Datos"
+page-layout: full
 about:
-  template: jolla
-  image: images/Perfil.jpg   # pon tu foto aquí
+  template: trestles
+  image: images/perfil.jpg
   links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/JulioLanda4
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/JulioLanda4
     - icon: envelope
       text: Email
-      href: "landajulioc@gmail.com"
+      href: "mailto:tu.correo@dominio.com"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/tu-usuario"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/JulioLanda4"
 ---
 
-Bienvenido(a). Breve descripción profesional (1–2 líneas).
+Soy **tu resumen en 3–4 líneas**: áreas (energía solar, confort térmico, IoT, análisis de datos) y tu propuesta de valor.
+
+## Educación
+- **Doctorado (en proceso)** — IER-UNAM, 2025–…
+- **Maestría en Energías Renovables** — IER-UNAM, 2025
+- **Ing. en …** — IPN, 20XX
+
+## Experiencia
+- **Docente de Física/Matemáticas** — NC School (2024–…)
+- **Desarrollador HW/SW (IoT de confort)** — IER-UNAM (2023–2025)
+- **Ingeniero de …** — SENER / INE / Carso (años)
+
+## Proyectos destacados
+### Reloj inteligente IoT de confort térmico
+Dispositivo abierto con ESP32C3 + sensores; encuesta en LVGL y backend en ThingsBoard.  
+[Repositorio](#) · [Artículo](#)
+
+### Seguimiento solar en helióstatos (P.O.C.)
+Control en lazo cerrado con sensores e imagen; simulación y validación.  
+[Resumen](#) · [Código](#)

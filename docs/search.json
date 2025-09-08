@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "publicaciones.html",
+    "href": "publicaciones.html",
+    "title": "Publicaciones",
+    "section": "",
+    "text": "Título, Revista/Conf, Año. Autores. DOI/Enlace"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Julio Landa",
+    "section": "",
+    "text": "Soy tu resumen en 3–4 líneas: áreas (energía solar, confort térmico, IoT, análisis de datos) y tu propuesta de valor."
+  },
+  {
+    "objectID": "index.html#educación",
+    "href": "index.html#educación",
+    "title": "Julio Landa",
+    "section": "Educación",
+    "text": "Educación\n\nDoctorado (en proceso) — IER-UNAM, 2025–…\nMaestría en Energías Renovables — IER-UNAM, 2025\nIng. en … — IPN, 20XX"
+  },
+  {
+    "objectID": "index.html#experiencia",
+    "href": "index.html#experiencia",
+    "title": "Julio Landa",
+    "section": "Experiencia",
+    "text": "Experiencia\n\nDocente de Física/Matemáticas — NC School (2024–…)\nDesarrollador HW/SW (IoT de confort) — IER-UNAM (2023–2025)\nIngeniero de … — SENER / INE / Carso (años)"
+  },
+  {
+    "objectID": "index.html#proyectos-destacados",
+    "href": "index.html#proyectos-destacados",
+    "title": "Julio Landa",
+    "section": "Proyectos destacados",
+    "text": "Proyectos destacados\n\nReloj inteligente IoT de confort térmico\nDispositivo abierto con ESP32C3 + sensores; encuesta en LVGL y backend en ThingsBoard.\nRepositorio · Artículo\n\n\nSeguimiento solar en helióstatos (P.O.C.)\nControl en lazo cerrado con sensores e imagen; simulación y validación.\nResumen · Código"
+  },
+  {
+    "objectID": "contacto.html",
+    "href": "contacto.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "Correo: landajulioc &lt;at&gt; gmail.com\n\nLinkedIn: JulioLanda4\n\nGitHub: @JulioLanda4"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Currículum",
+    "section": "",
+    "text": "Descargar CV (PDF)\n\n\nResumen\n\nFormación: …\nExperiencia: …"
+  },
+  {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "Reloj inteligente IoT de confort térmico (Tesis M. IER-UNAM)\n\n\nDispositivo y sistema IoT para encuestas de confort térmico y medición de variables fisiológicas (XIAO ESP32C3, MAX30102, GY-906, LVGL). Incluye firmware, interfaz, calibración y backend en ThingsBoard.\n\n\nESP32C3 Arduino/LVGL ThingsBoard Calibración Open-Source\n\n\nRepositorio README\n\n\n\n\n\n\nAjuste de Calificaciones (Sitio Quarto para secundaria)\n\n\nSitio web en Quarto para apoyar a docentes en el cálculo y ajuste de calificaciones por unidad. Incluye páginas interactivas y estructura reproducible para su despliegue en GitHub Pages.\n\n\nQuarto GitHub Pages Educación\n\n\nRepositorio \n\n\n\n\n\n\nMonitoreo de apertura/cierre de ventanas (IER-UNAM) Privado\n\n\nDispositivo para registrar estado de apertura/cierre de ventanas con sello temporal, para estudios de confort y ventilación. Se desarrolló prototipo, firmware y análisis de datos.\n\n\nHardware Firmware IoT Confort/Ventilación\n\n\nRepo privado Solicitar información"
+  }
+]

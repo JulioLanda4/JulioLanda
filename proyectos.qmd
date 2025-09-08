@@ -1,9 +1,62 @@
 ---
 title: "Proyectos"
+page-layout: full
 ---
 
-## Proyecto 1
-Descripción breve. [Repositorio](#)
+<div class="row g-4">
 
-## Proyecto 2
-Descripción breve. [Repositorio](#)
+<div class="col-md-6">
+<div class="project-card">
+<h3>Reloj inteligente IoT de confort térmico (Tesis M. IER-UNAM)</h3>
+<p>Dispositivo y sistema IoT para encuestas de confort térmico y medición de variables fisiológicas
+(XIAO ESP32C3, MAX30102, GY-906, LVGL). Incluye firmware, interfaz, calibración y backend en ThingsBoard.</p>
+<p class="badges">
+  <span class="badge">ESP32C3</span>
+  <span class="badge">Arduino/LVGL</span>
+  <span class="badge">ThingsBoard</span>
+  <span class="badge">Calibración</span>
+  <span class="badge">Open-Source</span>
+</p>
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/IoT_Reloj_Confort" target="_blank" rel="noopener">Repositorio</a>
+  <a class="btn btn-sm btn-outline-secondary" href="https://github.com/JulioLanda4/IoT_Reloj_Confort#readme" target="_blank" rel="noopener">README</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Ajuste de Calificaciones (Sitio Quarto para secundaria)</h3>
+<p>Sitio web en Quarto para apoyar a docentes en el cálculo y ajuste de calificaciones por unidad.
+Incluye páginas interactivas y estructura reproducible para su despliegue en GitHub Pages.</p>
+<p class="badges">
+  <span class="badge">Quarto</span>
+  <span class="badge">GitHub Pages</span>
+  <span class="badge">Educación</span>
+</p>
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Ajuste_Calificaciones" target="_blank" rel="noopener">Repositorio</a>
+  <!-- Si tienes URL pública del sitio, agrega aquí otro botón -->
+</p>
+</div>
+</div>
+
+<div class="col-md-12">
+<div class="project-card private">
+<h3>Monitoreo de apertura/cierre de ventanas (IER-UNAM) <span class="lock">Privado</span></h3>
+<p>Dispositivo para registrar estado de apertura/cierre de ventanas con sello temporal, para estudios de confort y ventilación.
+Se desarrolló prototipo, firmware y análisis de datos.</p>
+<p class="badges">
+  <span class="badge">Hardware</span>
+  <span class="badge">Firmware</span>
+  <span class="badge">IoT</span>
+  <span class="badge">Confort/Ventilación</span>
+</p>
+<p class="links">
+  <a class="btn btn-sm btn-outline-secondary disabled" tabindex="-1" aria-disabled="true">Repo privado</a>
+  <a class="btn btn-sm btn-outline-primary" href="mailto:tu.correo@dominio.com?subject=Solicitud%20de%20informaci%C3%B3n%20-%20Proyecto%20ventanas">Solicitar información</a>
+</p>
+</div>
+</div>
+
+</div>
