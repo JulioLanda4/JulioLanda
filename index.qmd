@@ -34,6 +34,4 @@ Soy **tu resumen en 3–4 líneas**: áreas (energía solar, confort térmico, I
 Dispositivo abierto con ESP32C3 + sensores; encuesta en LVGL y backend en ThingsBoard.  
 [Repositorio](#) · [Artículo](#)
 
-### Seguimiento solar en helióstatos (P.O.C.)
-Control en lazo cerrado con sensores e imagen; simulación y validación.  
-[Resumen](#) · [Código](#)
+
