@@ -113,6 +113,30 @@
       applyLangToLinks(pref);
       mountSwitch(pref);
       reflectSwitch(pref);
+      // Update navbar labels to current language
+      const setNavbarLabels = (lang) => {
+        const labelsES = { 'index.html':'Inicio', 'cv.html':'CV', 'publicaciones.html':'Publicaciones', 'proyectos.html':'Proyectos', 'about.html':'Acerca de mí' };
+        const labelsEN = { 'index.html':'Home',  'cv.html':'CV', 'publicaciones.html':'Publications', 'proyectos.html':'Projects', 'about.html':'About' };
+        const map = lang==='en' ? labelsEN : labelsES;
+        const navAnchors = document.querySelectorAll('.navbar .navbar-nav a.nav-link');
+        navAnchors.forEach(a => {
+          const u = new URL(a.getAttribute('href'), location.href);
+          // basename, ignoring any /en/ segment
+          const parts = u.pathname.split('/').filter(Boolean);
+          const file = parts[parts.length-1] || 'index.html';
+          if (map[file]) a.textContent = map[file];
+        });
+      };
+      const setFooterLabels = (lang) => {
+        const el = document.querySelector('.nav-footer-center, .footer .nav-footer-center, .footer .nav-footer .nav-footer-center');
+        if (!el) return;
+        const year = new Date().getFullYear();
+        const htmlES = `© Julio Landa · ${year} · Código: <a href='https://opensource.org/license/mit/'>MIT</a> · Contenido: <a href='https://creativecommons.org/licenses/by-nc/4.0/'>CC BY‑NC 4.0</a>`;
+        const htmlEN = `© Julio Landa · ${year} · Code: <a href='https://opensource.org/license/mit/'>MIT</a> · Content: <a href='https://creativecommons.org/licenses/by-nc/4.0/'>CC BY‑NC 4.0</a>`;
+        el.innerHTML = (lang==='en') ? htmlEN : htmlES;
+      };
+      setNavbarLabels(pref);
+      setFooterLabels(pref);
     }
     // If switch placeholder exists and we redirected earlier, still mount it
     if (placeholder && !switchEl) { mountSwitch(getPrefLang()); reflectSwitch(getPrefLang()); }

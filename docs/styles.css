@@ -123,6 +123,9 @@ h3 { margin-top: .25rem; margin-bottom: .5rem; }
 /* About gallery: larger 500x500 */
 #about-gallery { height: 720px; }
 #about-gallery .gallery-item { width: 500px; height: 500px; }
+/* Downscale smaller (low-res) images to avoid upscaling noise */
+#about-gallery .gallery-item.lores { width: 380px; height: 380px; }
+#about-gallery .gallery-item.hires { width: 500px; height: 500px; }
 /* Gallery scroll: smoother + hide scrollbar */
 #about-gallery { scroll-behavior: smooth; }
 .gallery-scroll { scrollbar-width: none; -ms-overflow-style: none; }

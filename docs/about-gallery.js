@@ -3,6 +3,20 @@
   if (!scroller) return;
   scroller.classList.add('tilted');
   const items = Array.from(scroller.querySelectorAll('.gallery-item'));
+  // Assign size classes to avoid upscaling low-res images (prevents grain)
+  const assignSizeClasses = () => {
+    const dpr = window.devicePixelRatio || 1;
+    const target = 500; // css nominal for hires
+    items.forEach(img => {
+      const w = img.naturalWidth || 0;
+      const h = img.naturalHeight || 0;
+      if (!w || !h) return; // wait for load
+      const maxDim = Math.max(w, h) / dpr;
+      const lores = maxDim < target * 0.95; // if smaller than target, mark low-res
+      img.classList.toggle('lores', lores);
+      img.classList.toggle('hires', !lores);
+    });
+  };
   const wrapper = scroller.closest('.gallery-wrap') || scroller.parentElement;
   let isAuto = false;
 
@@ -104,6 +118,9 @@
 
   setActive();
   window.addEventListener('load', setActive);
+  window.addEventListener('load', assignSizeClasses);
+  items.forEach(img => { if (!img.complete) img.addEventListener('load', assignSizeClasses, { once:true }); });
+  window.addEventListener('resize', () => { assignSizeClasses(); });
   scroller.addEventListener('scroll', onScroll, { passive: true });
   window.addEventListener('resize', throttle(setActive, 16));
 })();
