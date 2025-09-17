@@ -1,5 +1,48 @@
----
-title: "About"
+﻿---
+title: "Acerca de mí"
+page-layout: full
 ---
 
-About this site
+<div class="section-card">
+
+Me considero una persona dedicada, versátil, meticulosa y creativa. Disfruto trabajar en equipo y aprender de otras miradas, aunque también valoro mucho avanzar por mi cuenta, concentrado y en silencio. Esa combinación me ha acompañado en distintos proyectos y experiencias, y me ha dado un equilibrio entre lo colectivo y lo personal.
+
+El deporte ocupa un lugar importante en mi vida: practico fútbol y atletismo, y de ahí he aprendido disciplina, constancia y también la satisfacción de superarme poco a poco. El dibujo y la fotografía son para mí pasatiempos que me permiten relajarme y mantener vivo mi lado creativo, sin más objetivo que disfrutar del proceso.
+
+Viajar y conocer otras culturas es otra parte importante de mi vida. Me ayuda a ampliar mi visión y a adaptarme con facilidad a distintos contextos, algo que también traslado a mis proyectos personales y académicos.
+
+En este momento, me motiva seguir creciendo en la investigación y la ciencia, con especial interés en la energía solar térmica, la automatización, el diseño bioclimático y el análisis de datos. Busco encontrar un equilibrio entre lo técnico y lo humano: crear soluciones que nacen de la curiosidad y el rigor, pero que aporten valor práctico a la vida cotidiana.
+
+</div>
+
+## Galería
+
+```{=html}
+<div class="gallery-wrap">
+  <button class="gallery-arrow left" aria-label="Anterior">&#10094;</button>
+  <button class="gallery-arrow right" aria-label="Siguiente">&#10095;</button>
+  <div class="gallery-scroll" id="about-gallery">
+    <div class="gallery-spacer"></div>
+    <img class="gallery-item" src="images/1.jpg" alt="Galería 1" />
+    <img class="gallery-item" src="images/2.jpg" alt="Galería 2" />
+    <img class="gallery-item" src="images/3.jpg" alt="Galería 3" />
+    <img class="gallery-item" src="images/4.jpg" alt="Galería 4" />
+    <img class="gallery-item" src="images/5.jpg" alt="Galería 5" />
+    <img class="gallery-item" src="images/6.jpg" alt="Galería 6" />
+    <img class="gallery-item" src="images/7.jpg" alt="Galería 7" />
+    <img class="gallery-item" src="images/8.jpg" alt="Galería 8" />
+    <img class="gallery-item" src="images/9.jpg" alt="Galería 9" />
+    <img class="gallery-item" src="images/10.jpg" alt="Galería 10" />
+    <img class="gallery-item" src="images/11.jpg" alt="Galería 11" />
+    <img class="gallery-item" src="images/12.jpg" alt="Galería 12" />
+    <img class="gallery-item" src="images/13.jpg" alt="Galería 13" />
+    <img class="gallery-item" src="images/14.jpg" alt="Galería 14" />
+    <img class="gallery-item" src="images/15.jpg" alt="Galería 15" />
+    <div class="gallery-spacer"></div>
+  </div>
+</div>
+```
+
+```{=html}
+<script src="about-gallery.js"></script>
+```

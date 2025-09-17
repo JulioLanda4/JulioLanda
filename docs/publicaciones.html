@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -99,23 +99,45 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Proyectos</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contacto.html" rel="" target="">
- <span class="menu-text">Contacto</span></a>
+    <a class="nav-link" href="./about.html" rel="" target="">
+ <span class="menu-text">Acerca de mí</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:landajulioc@gmail.com" rel="" target=""><i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/JulioLanda4" rel="" target=""><i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/JulioLanda4" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://orcid.org/0009-0006-2067-6624" rel="" target=""><i class="bi bi-link-45deg" role="img" aria-label="ORCID">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -134,13 +156,52 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<ol type="1">
-<li><strong>Título</strong>, <em>Revista/Conf</em>, Año. Autores. <a href="#">DOI/Enlace</a></li>
-</ol>
+<div class="row g-4">
+<div class="col-md-6">
+<div id="tesis-reloj" class="project-card no-media">
+<h3 class="anchored">
+Tesis
+</h3>
+<p>
+<strong>Reloj inteligente IoT basado en tecnologías abiertas para la recopilación de datos de confort térmico</strong>
+</p>
+<p>
+Desarrollo de un reloj inteligente y plataforma IoT para encuestas de confort térmico y medición de variables fisiológicas.
+</p>
+<p class="badges">
+<span class="badge">Tesis de maestría</span> <span class="badge">IoT</span> <span class="badge">Confort térmico</span> <span class="badge">En proceso de publicación (UNAM)</span>
+</p>
+<p class="links">
+<a class="btn btn-sm btn-success" href="https://altamarmx.github.io/reloj_inteligente/" target="_blank" rel="noopener">Sitio</a>
+</p>
+</div>
+</div>
+<div class="col-md-6">
+<div id="articulo-reloj" class="project-card no-media">
+<h3 class="anchored">
+Artículo
+</h3>
+<p>
+<strong>IoT smartwatch based on open technologies for the collection of thermal comfort data</strong>
+</p>
+<p>
+Presenta el diseño abierto del smartwatch, metodología de adquisición de datos de confort y validaciones experimentales. <em>HardwareX</em>, 2025
+</p>
+<p class="badges">
+<span class="badge">Artículo</span> <span class="badge">HardwareX</span> <span class="badge">2025</span>
+</p>
+<p class="links">
+<a class="btn btn-sm btn-primary" href="https://doi.org/10.1016/j.ohx.2025.e00633" target="_blank" rel="noopener">DOI</a>
+</p>
+</div>
+</div>
+</div>
 
 
 
 </main> <!-- /main -->
+<script src="project-links.js"></script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

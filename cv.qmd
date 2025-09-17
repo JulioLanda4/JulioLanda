@@ -1,9 +1,14 @@
----
+﻿---
 title: "Currículum"
+page-layout: article
 ---
 
-- [Descargar CV (PDF)](files/CV_Julio-Landa.pdf){target=_blank}
+[Descargar CV (PDF)](files/CV-JulioLanda.pdf){.btn .btn-primary target=_blank}
 
-### Resumen
-- Formación: …
-- Experiencia: …
+
+## Vista previa
+```{=html}
+<div class="card-lite" style="padding:0; overflow:hidden; border-radius:12px;">
+  <iframe src="files/CV-JulioLanda.pdf#view=FitH" width="100%" height="1050" style="border:0;" title="CV Julio Landa (PDF)"></iframe>
+</div>
+```

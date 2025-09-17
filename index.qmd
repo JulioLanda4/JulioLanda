@@ -1,37 +1,38 @@
 ---
 title: "Julio Landa"
-subtitle: "Ingeniería en Energías Renovables · Desarrollo Web/Datos"
+subtitle: "Energías Renovables · IoT · Datos"
 page-layout: full
 about:
   template: trestles
-  image: images/perfil.jpg
+  image: images/Perfil.jpg
   links:
     - icon: envelope
       text: Email
-      href: "mailto:tu.correo@dominio.com"
+      href: "mailto:landajulioc@gmail.com"
     - icon: linkedin
       text: LinkedIn
-      href: "https://www.linkedin.com/in/tu-usuario"
+      href: "https://www.linkedin.com/in/JulioLanda4"
     - icon: github
       text: GitHub
       href: "https://github.com/JulioLanda4"
+    - icon: link-45deg
+      text: ORCID
+      href: "https://orcid.org/0009-0006-2067-6624"
 ---
 
-Soy **tu resumen en 3–4 líneas**: áreas (energía solar, confort térmico, IoT, análisis de datos) y tu propuesta de valor.
+Ingeniero en Mecatrónica con maestría en Energías Renovables, especializado en diseño bioclimático, confort térmico y con interés en energía solar térmica y automatización. Trabajo con Python para adquisición, análisis y visualización de datos, desarrollando soluciones reproducibles y claras. Me motiva la investigación y la ciencia, buscando siempre unir la técnica con la creatividad para generar proyectos útiles y humanos.
 
 ## Educación
-- **Doctorado (en proceso)** — IER-UNAM, 2025–…
-- **Maestría en Energías Renovables** — IER-UNAM, 2025
-- **Ing. en …** — IPN, 20XX
+- Maestría en Energías Renovables — IER‑UNAM (2023–2025)
+  - Tesis: Reloj inteligente IoT basado en tecnologías abiertas para la recopilación de datos de confort térmico. [Ver](publicaciones.html#tesis-reloj)
+- Ingeniería Mecatrónica — Universidad Tecnológica de Emiliano Zapata (UTEZ) (2018–2020)
 
 ## Experiencia
-- **Docente de Física/Matemáticas** — NC School (2024–…)
-- **Desarrollador HW/SW (IoT de confort)** — IER-UNAM (2023–2025)
-- **Ingeniero de …** — SENER / INE / Carso (años)
+- Docente de Física y Matemáticas — NC School (2024–presente)
+- Desarrollador HW/SW (IoT de confort térmico) — IER‑UNAM (2023–2025)
 
 ## Proyectos destacados
 ### Reloj inteligente IoT de confort térmico
-Dispositivo abierto con ESP32C3 + sensores; encuesta en LVGL y backend en ThingsBoard.  
-[Repositorio](#) · [Artículo](#)
-
+Dispositivo y plataforma abierta: XIAO ESP32C3, MAX30102, GY‑906; interfaz en LVGL y backend en ThingsBoard.  
+[Tesis](publicaciones.html#tesis-reloj) · [Artículo](publicaciones.html#articulo-reloj) · [Repositorio](https://github.com/JulioLanda4/IoT_Reloj_Confort)
 

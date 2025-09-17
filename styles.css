@@ -1,15 +1,25 @@
-/* css styles */
+﻿/* css styles */
 
-/* ——— Ancho útil y compacidad ——— */
-.page-layout-full .content { max-width: 1200px; margin: 0 auto; } /* ancho cómodo en desktop */
-section { margin-top: 1.25rem; } /* menos separación vertical */
+/* â€”â€”â€” Ancho Ãºtil y compacidad â€”â€”â€” */
+.page-layout-full .content { max-width: 1200px; margin: 0 auto; } /* ancho cÃ³modo en desktop */
+section { margin-top: 1.25rem; } /* menos separaciÃ³n vertical */
 
-/* ——— About (trestles) ——— */
-.quarto-about-trestles .about-image { width: 220px; height: 220px; object-fit: cover; }
+/* â€”â€”â€” About (trestles) â€”â€”â€” */
+.quarto-about-trestles .about-image {
+  width: 400px;              /* mÃ¡s grande */
+  aspect-ratio: 3 / 4;       /* rectangular vertical */
+  object-fit: cover;         /* recorta bordes para llenar */
+  object-position: 50% 34%;  /* centro horizontal; recorte leve inferior */
+  background: #fff;
+  border-radius: 48px;       /* esquinas muy redondeadas */
+}
+@media (max-width: 768px){
+  .quarto-about-trestles .about-image { width: 280px; }
+}
 .quarto-about-trestles .about-contents { padding-top: .75rem; }   /* sube el texto a la altura de la foto */
 .quarto-about-trestles .about-links a.btn { padding: .35rem .6rem; }
 
-/* ——— Titulares y tarjetas ——— */
+/* â€”â€”â€” Titulares y tarjetas â€”â€”â€” */
 h2 { margin-top: 0.5rem; margin-bottom: .75rem; }
 h3 { margin-top: .25rem; margin-bottom: .5rem; }
 
@@ -37,10 +47,13 @@ h3 { margin-top: .25rem; margin-bottom: .5rem; }
   box-shadow:0 6px 24px rgba(0,0,0,.07);
   padding:1.1rem 1.2rem;
   height:100%;
+  display:grid;               /* title across, image left, content right */
+  grid-template-columns: 150px 1fr;
+  column-gap:.9rem;
 }
-.project-card h3{ margin:0 0 .5rem 0; line-height:1.25; }
-.project-card p{ margin-bottom:.6rem; }
-.project-card .badges{ margin:.25rem 0 .6rem; }
+.project-card h3{ margin:0 0 .75rem 0; line-height:1.25; }
+.project-card p{ margin-bottom:.85rem; }
+.project-card .badges{ margin:.4rem 0 .85rem; }
 .project-card .badge{
   display:inline-block; font-size:.85rem; font-weight:500;
   background:#eef2f7; color:#445; border:1px solid #dde3ee;
@@ -48,8 +61,28 @@ h3 { margin-top: .25rem; margin-bottom: .5rem; }
 }
 .project-card .links .btn{ margin-right:.35rem; }
 .project-card .project-media{
-  width:100%; border-radius:12px; margin-top:.6rem;
+  width:140px; height:140px; object-fit:cover; border-radius:12px; margin-top:0;
   box-shadow:0 3px 16px rgba(0,0,0,.06);
+  grid-column:1; grid-row:2 / span 4;
+}
+.project-card h3{ grid-column:1 / -1; }
+.project-card p, .project-card .badges, .project-card .links{ grid-column:2; }
+
+/* Publicaciones sin imagen: usa flujo normal y mÃ¡s aire */
+.project-card.no-media{ display:block; }
+.project-card.no-media h3, .project-card.no-media p, .project-card.no-media .badges, .project-card.no-media .links{ grid-column:auto; }
+.project-card.no-media .links{ margin-top:.2rem; }
+
+/* compact layout: image left, content right */
+.project-card .project-flex{ display:flex; align-items:flex-start; gap:.9rem; }
+.project-card .project-thumb{
+  width:110px; height:110px; object-fit:cover; border-radius:12px;
+  box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+.project-card .project-content{ flex:1 1 auto; min-width:0; }
+@media (max-width: 576px){
+  .project-card{ grid-template-columns: 110px 1fr; }
+  .project-card .project-media{ width:100px; height:100px; grid-row:auto; }
 }
 
 /* variante para privados */
@@ -59,4 +92,69 @@ h3 { margin-top: .25rem; margin-bottom: .5rem; }
   background:#e7f0ff; border:1px solid #cfe0ff; border-radius:999px; padding:.15rem .45rem;
   vertical-align:middle; margin-left:.35rem;
 }
+/* Gallery (About page) */
+.gallery-scroll { display: flex; gap: 12px; overflow-x: auto; padding: 8px 8px 16px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+.gallery-spacer { flex: 0 0 50%; }
+.gallery-item { flex: 0 0 auto; width: 200px; height: 200px; border-radius: 12px; object-fit: cover; scroll-snap-align: center; transition: transform 0.25s ease, opacity 0.25s ease; opacity: 0.85; }
+.gallery-item.is-center { opacity: 1; }
+.gallery-wrap { position: relative; }
+/* Coverflow effect */
+.gallery-wrap { perspective: 1200px; }
+.gallery-scroll { padding: 16px 8px 24px; }
+.gallery-item { flex: 0 0 auto; width: 200px; height: 200px; border-radius: 12px; object-fit: cover; scroll-snap-align: center; transition: transform 0.25s ease, opacity 0.25s ease; opacity: 0.85; }
+.gallery-item.is-center { opacity: 1; }
 
+/* Coverflow tuning */
+.gallery-wrap { perspective: 1200px; }
+.gallery-scroll { perspective: 1200px; transform-style: preserve-3d; }
+/* Gallery overrides: larger items, horizontal-only scroll */
+.gallery-scroll { gap: 16px; padding: 16px 12px 24px; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; align-items: center; height: 380px; perspective: 1600px; transform-style: preserve-3d; }
+.gallery-item { width: 280px; height: 280px; border-radius: 14px; }
+.gallery-wrap { perspective: 1600px; }
+/* About gallery: larger 300x300 and horizontal-only */
+#about-gallery { gap: 18px; padding: 24px 16px 32px; height: 460px; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; }
+#about-gallery .gallery-item { width: 300px; height: 300px; border-radius: 16px; }
+
+.gallery-item { image-rendering: auto; }
+
+/* About gallery: larger 360x360 */
+#about-gallery { height: 560px; }
+#about-gallery .gallery-item { width: 360px; height: 360px; }
+/* About gallery: larger 500x500 */
+#about-gallery { height: 720px; }
+#about-gallery .gallery-item { width: 500px; height: 500px; }
+/* Gallery scroll: smoother + hide scrollbar */
+#about-gallery { scroll-behavior: smooth; }
+.gallery-scroll { scrollbar-width: none; -ms-overflow-style: none; }
+.gallery-scroll::-webkit-scrollbar { width: 0; height: 0; display: none; }
+.gallery-item { scroll-snap-stop: always; }
+/* Gallery arrows */
+.gallery-wrap { position: relative; }
+.gallery-arrow { position: absolute; top: 50%; transform: translateY(-50%); z-index: 5; width: 44px; height: 44px; border-radius: 999px; border: none; color: #fff; background: rgba(0,0,0,0.45); display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background 0.2s ease, transform 0.2s ease; }
+.gallery-arrow:hover { background: rgba(0,0,0,0.65); transform: translateY(-50%) scale(1.05); }
+.gallery-arrow.left { left: 8px; }
+.gallery-arrow.right { right: 8px; }
+@media (max-width: 640px) { .gallery-arrow { width: 36px; height: 36px; } }
+/* Ensure arrows are above 3D items */
+.gallery-scroll { position: relative; z-index: 0; }
+.gallery-arrow { z-index: 10000; }
+
+/* Lightbox for project images */
+.project-media { cursor: zoom-in; }
+.lightbox-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.82); display: none; align-items: center; justify-content: center; z-index: 11000; padding: 4vw; }
+.lightbox-overlay.show { display: flex; }
+.lightbox-overlay img { max-width: 92vw; max-height: 92vh; border-radius: 12px; box-shadow: 0 12px 40px rgba(0,0,0,.5); }
+.lightbox-overlay .lb-close { position: absolute; top: 16px; right: 16px; width: 38px; height: 38px; border-radius: 999px; border: none; background: rgba(255,255,255,.1); color: #fff; font-size: 22px; cursor: pointer; }
+/* Auto-hide arrows */
+.gallery-arrow { opacity: .95; transition: opacity .25s ease, transform .2s ease; }
+.gallery-arrow.hidden { opacity: 0; pointer-events: none; }
+/* Simple carousel (no 3D) */
+.gallery-wrap { perspective: none !important; }
+#about-gallery { transform-style: flat !important; perspective: none !important; scroll-behavior: smooth; }
+#about-gallery .gallery-item { transform: none !important; }
+/* Tilted carousel */
+#about-gallery.tilted { perspective: 1200px; transform: rotateX(8deg); transform-origin: center 60%; }
+#about-gallery.tilted .gallery-item { transform: var(--t) !important; transition: transform .28s ease, opacity .25s ease; }
+/* Mini zoom popover for project images */
+.lightbox-overlay.mini { background: transparent; }
+.lightbox-overlay.mini img { max-width: 520px; max-height: 520px; }

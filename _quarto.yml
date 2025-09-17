@@ -1,4 +1,4 @@
-project:
+﻿project:
   type: website
   output-dir: docs
 
@@ -17,15 +17,28 @@ website:
         text: Publicaciones
       - href: proyectos.qmd
         text: Proyectos
-      - href: contacto.qmd
-        text: Contacto
+      - href: about.qmd
+        text: Acerca de mí
+    right:
+      - icon: envelope
+        aria-label: Email
+        href: "mailto:landajulioc@gmail.com"
+      - icon: linkedin
+        aria-label: LinkedIn
+        href: "https://www.linkedin.com/in/JulioLanda4"
+      - icon: github
+        aria-label: GitHub
+        href: "https://github.com/JulioLanda4"
+      - icon: link-45deg
+        aria-label: ORCID
+        href: "https://orcid.org/0009-0006-2067-6624"
 
 format:
   html:
     theme: flatly
     css: styles.css
+    include-after-body: project-links.html
+    body-attrs:
+      data-github-owner: JulioLanda4
     lang: es
     toc: false
-
-
-

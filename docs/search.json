@@ -4,62 +4,76 @@
     "href": "publicaciones.html",
     "title": "Publicaciones",
     "section": "",
-    "text": "Título, Revista/Conf, Año. Autores. DOI/Enlace"
+    "text": "Tesis\n\n\nReloj inteligente IoT basado en tecnologías abiertas para la recopilación de datos de confort térmico\n\n\nDesarrollo de un reloj inteligente y plataforma IoT para encuestas de confort térmico y medición de variables fisiológicas.\n\n\nTesis de maestría IoT Confort térmico En proceso de publicación (UNAM)\n\n\nSitio\n\n\n\n\n\n\nArtículo\n\n\nIoT smartwatch based on open technologies for the collection of thermal comfort data\n\n\nPresenta el diseño abierto del smartwatch, metodología de adquisición de datos de confort y validaciones experimentales. HardwareX, 2025\n\n\nArtículo HardwareX 2025\n\n\nDOI"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Julio Landa",
     "section": "",
-    "text": "Soy tu resumen en 3–4 líneas: áreas (energía solar, confort térmico, IoT, análisis de datos) y tu propuesta de valor."
+    "text": "Ingeniero en Mecatrónica con maestría en Energías Renovables, especializado en diseño bioclimático, confort térmico y con interés en energía solar térmica y automatización. Trabajo con Python para adquisición, análisis y visualización de datos, desarrollando soluciones reproducibles y claras. Me motiva la investigación y la ciencia, buscando siempre unir la técnica con la creatividad para generar proyectos útiles y humanos."
   },
   {
     "objectID": "index.html#educación",
     "href": "index.html#educación",
     "title": "Julio Landa",
     "section": "Educación",
-    "text": "Educación\n\nDoctorado (en proceso) — IER-UNAM, 2025–…\nMaestría en Energías Renovables — IER-UNAM, 2025\nIng. en … — IPN, 20XX"
+    "text": "Educación\n\nMaestría en Energías Renovables — IER‑UNAM (2023–2025)\n\nTesis: Reloj inteligente IoT basado en tecnologías abiertas para la recopilación de datos de confort térmico. Ver\n\nIngeniería Mecatrónica — Universidad Tecnológica de Emiliano Zapata (UTEZ) (2018–2020)"
   },
   {
     "objectID": "index.html#experiencia",
     "href": "index.html#experiencia",
     "title": "Julio Landa",
     "section": "Experiencia",
-    "text": "Experiencia\n\nDocente de Física/Matemáticas — NC School (2024–…)\nDesarrollador HW/SW (IoT de confort) — IER-UNAM (2023–2025)\nIngeniero de … — SENER / INE / Carso (años)"
+    "text": "Experiencia\n\nDocente de Física y Matemáticas — NC School (2024–presente)\nDesarrollador HW/SW (IoT de confort térmico) — IER‑UNAM (2023–2025)"
   },
   {
     "objectID": "index.html#proyectos-destacados",
     "href": "index.html#proyectos-destacados",
     "title": "Julio Landa",
     "section": "Proyectos destacados",
-    "text": "Proyectos destacados\n\nReloj inteligente IoT de confort térmico\nDispositivo abierto con ESP32C3 + sensores; encuesta en LVGL y backend en ThingsBoard.\nRepositorio · Artículo\n\n\nSeguimiento solar en helióstatos (P.O.C.)\nControl en lazo cerrado con sensores e imagen; simulación y validación.\nResumen · Código"
+    "text": "Proyectos destacados\n\nReloj inteligente IoT de confort térmico\nDispositivo y plataforma abierta: XIAO ESP32C3, MAX30102, GY‑906; interfaz en LVGL y backend en ThingsBoard.\nTesis · Artículo · Repositorio"
   },
   {
     "objectID": "contacto.html",
     "href": "contacto.html",
     "title": "Contacto",
     "section": "",
-    "text": "Correo: landajulioc &lt;at&gt; gmail.com\n\nLinkedIn: JulioLanda4\n\nGitHub: @JulioLanda4"
+    "text": "Correo: landajulioc@gmail.com\n\nORCID: 0009-0006-2067-6624\n\nLinkedIn: LinkedIn\n\nGitHub: @JulioLanda4"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Acerca de mí",
     "section": "",
-    "text": "About this site"
+    "text": "Me considero una persona dedicada, versátil, meticulosa y creativa. Disfruto trabajar en equipo y aprender de otras miradas, aunque también valoro mucho avanzar por mi cuenta, concentrado y en silencio. Esa combinación me ha acompañado en distintos proyectos y experiencias, y me ha dado un equilibrio entre lo colectivo y lo personal.\nEl deporte ocupa un lugar importante en mi vida: practico fútbol y atletismo, y de ahí he aprendido disciplina, constancia y también la satisfacción de superarme poco a poco. El dibujo y la fotografía son para mí pasatiempos que me permiten relajarme y mantener vivo mi lado creativo, sin más objetivo que disfrutar del proceso.\nViajar y conocer otras culturas es otra parte importante de mi vida. Me ayuda a ampliar mi visión y a adaptarme con facilidad a distintos contextos, algo que también traslado a mis proyectos personales y académicos.\nEn este momento, me motiva seguir creciendo en la investigación y la ciencia, con especial interés en la energía solar térmica, la automatización, el diseño bioclimático y el análisis de datos. Busco encontrar un equilibrio entre lo técnico y lo humano: crear soluciones que nacen de la curiosidad y el rigor, pero que aporten valor práctico a la vida cotidiana."
+  },
+  {
+    "objectID": "about.html#galería",
+    "href": "about.html#galería",
+    "title": "Acerca de mí",
+    "section": "Galería",
+    "text": "Galería\n\n  ❮\n  ❯"
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Currículum",
     "section": "",
-    "text": "Descargar CV (PDF)\n\n\nResumen\n\nFormación: …\nExperiencia: …"
+    "text": "Descargar CV (PDF)"
+  },
+  {
+    "objectID": "cv.html#vista-previa",
+    "href": "cv.html#vista-previa",
+    "title": "Currículum",
+    "section": "Vista previa",
+    "text": "Vista previa"
   },
   {
     "objectID": "proyectos.html",
     "href": "proyectos.html",
     "title": "Proyectos",
     "section": "",
-    "text": "Reloj inteligente IoT de confort térmico (Tesis M. IER-UNAM)\n\n\nDispositivo y sistema IoT para encuestas de confort térmico y medición de variables fisiológicas (XIAO ESP32C3, MAX30102, GY-906, LVGL). Incluye firmware, interfaz, calibración y backend en ThingsBoard.\n\n\nESP32C3 Arduino/LVGL ThingsBoard Calibración Open-Source\n\n\nRepositorio README\n\n\n\n\n\n\nAjuste de Calificaciones (Sitio Quarto para secundaria)\n\n\nSitio web en Quarto para apoyar a docentes en el cálculo y ajuste de calificaciones por unidad. Incluye páginas interactivas y estructura reproducible para su despliegue en GitHub Pages.\n\n\nQuarto GitHub Pages Educación\n\n\nRepositorio \n\n\n\n\n\n\nMonitoreo de apertura/cierre de ventanas (IER-UNAM) Privado\n\n\nDispositivo para registrar estado de apertura/cierre de ventanas con sello temporal, para estudios de confort y ventilación. Se desarrolló prototipo, firmware y análisis de datos.\n\n\nHardware Firmware IoT Confort/Ventilación\n\n\nRepo privado Solicitar información"
+    "text": "IoT_Reloj_Confort\n\n\nReloj inteligente e infraestructura IoT para encuestas de confort térmico y medición de variables fisiológicas (XIAO ESP32C3, MAX30102, GY-906, LVGL). Incluye firmware, interfaz y backend en ThingsBoard.\n\n\nC ESP32C3 LVGL ThingsBoard\n\n\n\nTesis Artículo Repositorio\n\n\n\n\n\n\nLampara_acrilico\n\n\nLámpara artesanal de acrílico modelada en SolidWorks. Incluye ensambles y piezas (SLDASM/SLDPRT), renders y archivos para fabricación.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nMecanismos\n\n\nColección de levas, mecanismos y un rodamiento modelados en SolidWorks. Contiene ensambles y piezas con vistas previas.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nMicroondas_LabVIEW\n\n\nProyecto “Microondas” implementado en LabVIEW. Incluye VIs/CTLs y archivo de proyecto, con imágenes de referencia e instrucciones de apertura.\n\n\nLabVIEW\n\n\n\nRepositorio\n\n\n\n\n\n\nPrenda_generadora\n\n\nProyecto de investigación de prenda generadora de energía. Reúne evidencias, reportes, programas en LabVIEW, diagramas en Proteus, datos y resultados.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nAjuste_Calificaciones\n\n\nSitio en Quarto para cálculo y ajuste de calificaciones por unidad. Diseñado para despliegue en GitHub Pages.\n\n\nHTML Quarto GitHub Pages Educación\n\n\n\nSitio Repositorio\n\n\n\n\n\n\nEstrategias_bioclimaticas_vivienda\n\n\nDiseño bioclimático en clima semifrío seco (Pachuca, Hidalgo). Evalúa estrategias pasivas como absortancia, ventanas Low‑e y sistemas con masa térmica para reducir grados‑hora de disconfort y mejorar el confort térmico.\n\n\nHTML Bioclimática\n\n\n\nRepositorio\n\n\n\n\n\n\nMEIA-2023-Portafolio\n\n\nPortafolio del Macro Entrenamiento en Inteligencia Artificial 2023: anomalías, bioinformática, contaminantes, geodatos y proyecto final sobre calidad del aire en CDMX.\n\n\nJupyter IA Datos\n\n\n\nRepositorio\n\n\n\n\n\n\nSimulacion_ventilacion_natural\n\n\nSimulación de ventilación natural en cavidades mediante volúmenes finitos y el algoritmo SIMPLEC. Incluye códigos en Fortran, resultados y reporte con campos de velocidad y presión.\n\n\nFortran CFD\n\n\n\nRepositorio\n\n\n\n\n\n\nAjedrez-impresion3d\n\n\nConjunto de piezas de ajedrez modeladas en SolidWorks y listas para impresión 3D. Incluye archivos fuente (SLDPRT) y exportados a STL, además de imágenes y renders de referencia.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nMesa_giratoria_impresion-3d\n\n\nMesa giratoria con diseño mecánico en SolidWorks, piezas para impresión 3D y diagrama eléctrico en Fritzing. Contiene ensambles y partes (SLDASM/SLDPRT), archivos STL e imágenes del ensamblaje.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nSistema_medicion_apertura_ventanas Privado\n\n\nSistema de registro de apertura/cierre de ventanas con sello temporal para estudios de confort y ventilación. Repositorio privado. Rol: colaborador.\n\n\nHardware Firmware IoT Confort/Ventilación Colaborador\n\n\n\nRepo privado\n\n\n\n\n\n\nDH2O Privado\n\n\nRepositorio privado del proyecto DH2O (lata‑mas). Rol: colaborador.\n\n\nColaborador Privado\n\n\n\nRepo privado"
   }
 ]

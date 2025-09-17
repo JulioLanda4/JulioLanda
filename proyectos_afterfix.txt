@@ -1,0 +1,197 @@
+---
+title: "Proyectos"
+page-layout: full
+---
+
+<div class="row g-4">
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>IoT_Reloj_Confort</h3>
+<p>Reloj inteligente e infraestructura IoT para encuestas de confort térmico y medición de variables fisiológicas (XIAO ESP32C3, MAX30102, GY-906, LVGL). Incluye firmware, interfaz y backend en ThingsBoard.</p>
+<p class="badges">
+  <span class="badge">C</span>
+  <span class="badge">ESP32C3</span>
+  <span class="badge">LVGL</span>
+  <span class="badge">ThingsBoard</span>
+</p>
+<img class="project-media" src="images/Reloj_inteligente.jpg" alt="IoT_Reloj_Confort">
+<p class="links">
+  <a class="btn btn-sm btn-outline-primary" href="publicaciones.html#tesis-reloj" rel="noopener">Tesis</a>
+  <a class="btn btn-sm btn-outline-primary" href="publicaciones.html#articulo-reloj" rel="noopener">Artículo</a>
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/IoT_Reloj_Confort" target="_blank" rel="noopener">Repositorio</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Lampara_acrilico</h3>
+<p>Repositorio sin descripción.</p>
+<p class="badges">
+  <span class="badge">Open-Source</span>
+</p>
+<img class="project-media" src="images/mesa.png" alt="Lampara_acrilico">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Lampara_acrilico" target="_blank" rel="noopener">Repositorio</a>
+  </p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Mecanismos</h3>
+<p>Repositorio sin descripción.</p>
+<p class="badges">
+  <span class="badge">Open-Source</span>
+</p>
+<img class="project-media" src="images/mesa.png" alt="Mecanismos">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Mecanismos" target="_blank" rel="noopener">Repositorio</a>
+  </p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Microondas_LabVIEW</h3>
+<p>Repositorio sin descripción.</p>
+<p class="badges">
+  <span class="badge">LabVIEW</span>
+</p>
+<img class="project-media" src="images/Microondas.png" alt="Microondas_LabVIEW">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Microondas_LabVIEW" target="_blank" rel="noopener">Repositorio</a>
+  </p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Prenda_generadora</h3>
+<p>Repositorio sin descripción.</p>
+<p class="badges">
+  <span class="badge">Open-Source</span>
+</p>
+<img class="project-media" src="images/mesa.png" alt="Prenda_generadora">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Prenda_generadora" target="_blank" rel="noopener">Repositorio</a>
+  </p>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Ajuste_Calificaciones</h3>
+<p>Sitio en Quarto para cálculo y ajuste de calificaciones por unidad. Diseñado para despliegue en GitHub Pages.</p>
+<p class="badges">
+  <span class="badge">HTML</span>
+  <span class="badge">Quarto</span>
+  <span class="badge">GitHub Pages</span>
+  <span class="badge">Educación</span>
+</p>
+<img class="project-media" src="images/Ajuste_calificaciones.png" alt="Ajuste_Calificaciones">
+<p class="links">
+  <a class="btn btn-sm btn-success" href="https://JulioLanda4.github.io/Ajuste_Calificaciones/" target="_blank" rel="noopener">Sitio</a>
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Ajuste_Calificaciones" target="_blank" rel="noopener">Repositorio</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Estrategias_bioclimaticas_vivienda</h3>
+<p>Diseño bioclimático en clima semifrío seco (Pachuca, Hidalgo). Evalúa estrategias pasivas como absortancia, ventanas Low‑e y sistemas con masa térmica para reducir grados‑hora de disconfort y mejorar el confort térmico.</p>
+<p class="badges">
+  <span class="badge">HTML</span>
+  <span class="badge">Bioclimática</span>
+</p>
+<img class="project-media" src="images/Estrategias_bioclimaticas.png" alt="Estrategias_bioclimaticas_vivienda">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Estrategias_bioclimaticas_vivienda" target="_blank" rel="noopener">Repositorio</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>MEIA-2023-Portafolio</h3>
+<p>Portafolio del Macro Entrenamiento en Inteligencia Artificial 2023: anomalías, bioinformática, contaminantes, geodatos y proyecto final sobre calidad del aire en CDMX.</p>
+<p class="badges">
+  <span class="badge">Jupyter</span>
+  <span class="badge">IA</span>
+  <span class="badge">Datos</span>
+</p>
+<img class="project-media" src="images/MEIA.png" alt="MEIA-2023-Portafolio">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/MEIA-2023-Portafolio" target="_blank" rel="noopener">Repositorio</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Simulacion_ventilacion_natural</h3>
+<p>Simulación de ventilación natural en cavidades mediante volúmenes finitos y el algoritmo SIMPLEC. Incluye códigos en Fortran, resultados y reporte con campos de velocidad y presión.</p>
+<p class="badges">
+  <span class="badge">Fortran</span>
+  <span class="badge">CFD</span>
+</p>
+<img class="project-media" src="images/Ventilacion.png" alt="Simulacion_ventilacion_natural">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Simulacion_ventilacion_natural" target="_blank" rel="noopener">Repositorio</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Ajedrez-impresion3d</h3>
+<p>Repositorio sin descripción.</p>
+<p class="badges">
+  <span class="badge">Open‑Source</span>
+</p>
+<img class="project-media" src="images/ajedrez.png" alt="Ajedrez-impresion3d">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Ajedrez-impresion3d" target="_blank" rel="noopener">Repositorio</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Mesa_giratoria_impresion-3d</h3>
+<p>Repositorio sin descripción.</p>
+<p class="badges">
+  <span class="badge">Open‑Source</span>
+</p>
+<img class="project-media" src="images/mesa.png" alt="Mesa_giratoria_impresion-3d">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Mesa_giratoria_impresion-3d" target="_blank" rel="noopener">Repositorio</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-12">
+<div class="project-card private">
+<h3>Sistema_medicion_apertura_ventanas <span class="lock">Privado</span></h3>
+<p>Sistema de registro de apertura/cierre de ventanas con sello temporal para estudios de confort y ventilación. Repositorio privado; rol dentro del proyecto: colaborador (no autor principal).</p>
+<p class="badges">
+  <span class="badge">Hardware</span>
+  <span class="badge">Firmware</span>
+  <span class="badge">IoT</span>
+  <span class="badge">Confort/Ventilación</span>
+</p>
+<img class="project-media" src="images/apertura_ventanas.jpg" alt="Sistema_medicion_apertura_ventanas">
+<p class="links">
+  <a class="btn btn-sm btn-outline-secondary disabled" tabindex="-1" aria-disabled="true">Repo privado</a>
+</p>
+</div>
+</div>
+
+</div>
+
+

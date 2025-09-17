@@ -1,0 +1,9 @@
+---
+title: "Acerca de mí"
+page-layout: full
+---
+
+<div class="section-card">
+
+Soy una persona curiosa y cercana, dedicada, versátil, meticulosa y creativa. Me gusta construir con orden y calma y, cuando hace falta, reservar momentos de concentración para pulir los detalles. Disfruto trabajar en equipo y aprender de otras miradas, aunque también sé avanzar por mi cuenta. Mi experiencia se nutre del diseño, la fotografía y el dibujo, y de la práctica constante de deportes como el fútbol y el atletismo, que fortalecen mi disciplina y constancia. El español es mi lengua materna y cuento con un nivel intermedio-avanzado de inglés en contextos casuales y profesionales. Viajar y conocer otras culturas ha ampliado mi visión y reforzado mi capacidad de adaptación. Además, soy amante de la naturaleza.
+
