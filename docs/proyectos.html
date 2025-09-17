@@ -60,6 +60,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Buscar"
   }
 }</script>
+<script>
+// prevent double-exec
+if(!window.__langPrefInjected){
+  window.__langPrefInjected = true;
+}
+</script>
+<script src="../lang-pref.js"></script>
+<script src="lang-pref.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -104,6 +112,10 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./#" rel="" target="">
+ <span class="menu-text">Idioma</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="mailto:landajulioc@gmail.com" rel="" target=""><i class="bi bi-envelope" role="img" aria-label="Email">
 </i> 
@@ -383,8 +395,12 @@ Repositorio privado del proyecto DH2O (lata‑mas). Rol: colaborador.
 
 
 </main> <!-- /main -->
+<script>
+  // avoid double init
+  if(!window.__siteEnhancerLoaded){ window.__siteEnhancerLoaded = false; }
+</script>
+<script src="../project-links.js"></script>
 <script src="project-links.js"></script>
-
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

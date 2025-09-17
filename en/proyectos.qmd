@@ -1,0 +1,212 @@
+---
+title: "Projects"
+page-layout: full
+format:
+  html:
+    lang: en
+---
+
+<div class="row g-4">
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>IoT_Reloj_Confort</h3>
+<p>Open IoT smartwatch and platform for thermal comfort surveys and physiological variables (XIAO ESP32C3, MAX30102, GY‑906, LVGL; ThingsBoard backend).</p>
+<p class="badges">
+  <span class="badge">C</span>
+  <span class="badge">ESP32C3</span>
+  <span class="badge">LVGL</span>
+  <span class="badge">ThingsBoard</span>
+</p>
+<img class="project-media" src="../images/Reloj_inteligente.jpg" alt="IoT_Reloj_Confort">
+<p class="links">
+  <a class="btn btn-sm btn-outline-primary" href="../publicaciones.html#tesis-reloj" rel="noopener">Thesis</a>
+  <a class="btn btn-sm btn-outline-primary" href="../publicaciones.html#articulo-reloj" rel="noopener">Article</a>
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/IoT_Reloj_Confort" target="_blank" rel="noopener">Repository</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Lampara_acrilico</h3>
+<p>Acrylic craft lamp modeled in SolidWorks. Assemblies/parts (SLDASM/SLDPRT), renders and files for fabrication.</p>
+<p class="badges">
+  <span class="badge">Open-Source</span>
+</p>
+<img class="project-media" src="../images/mesa.png" alt="Lampara_acrilico">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Lampara_acrilico" target="_blank" rel="noopener">Repository</a>
+  </p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Mecanismos</h3>
+<p>Collection of cams, mechanisms and a bearing modeled in SolidWorks. Includes assemblies and parts with previews.</p>
+<p class="badges">
+  <span class="badge">Open-Source</span>
+</p>
+<img class="project-media" src="../images/mesa.png" alt="Mecanismos">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Mecanismos" target="_blank" rel="noopener">Repository</a>
+  </p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Microondas_LabVIEW</h3>
+<p>“Microwave” project in LabVIEW. Includes VIs/CTLs and project file, with reference images and open instructions.</p>
+<p class="badges">
+  <span class="badge">LabVIEW</span>
+</p>
+<img class="project-media" src="../images/Microondas.png" alt="Microondas_LabVIEW">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Microondas_LabVIEW" target="_blank" rel="noopener">Repository</a>
+  </p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Prenda_generadora</h3>
+<p>Wearable energy‑harvesting research project. Evidence, reports, LabVIEW programs, Proteus schematics, data and results.</p>
+<p class="badges">
+  <span class="badge">Open-Source</span>
+</p>
+<img class="project-media" src="../images/mesa.png" alt="Prenda_generadora">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Prenda_generadora" target="_blank" rel="noopener">Repository</a>
+  </p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Ajuste_Calificaciones</h3>
+<p>Quarto site to compute and adjust unit grades; designed for GitHub Pages deployment.</p>
+<p class="badges">
+  <span class="badge">HTML</span>
+  <span class="badge">Quarto</span>
+  <span class="badge">GitHub Pages</span>
+  <span class="badge">Education</span>
+</p>
+<img class="project-media" src="../images/Ajuste_calificaciones.png" alt="Ajuste_Calificaciones">
+<p class="links">
+  <a class="btn btn-sm btn-success" href="https://JulioLanda4.github.io/Ajuste_Calificaciones/" target="_blank" rel="noopener">Site</a>
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Ajuste_Calificaciones" target="_blank" rel="noopener">Repository</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Estrategias_bioclimaticas_vivienda</h3>
+<p>Bioclimatic design for a semi‑cold dry climate (Pachuca, Mexico). Evaluates passive strategies like absorptance, Low‑e windows and thermal mass to reduce degree‑hours of discomfort.</p>
+<p class="badges">
+  <span class="badge">HTML</span>
+  <span class="badge">Bioclimatics</span>
+</p>
+<img class="project-media" src="../images/Estrategias_bioclimaticas.png" alt="Estrategias_bioclimaticas_vivienda">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Estrategias_bioclimaticas_vivienda" target="_blank" rel="noopener">Repository</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>MEIA-2023-Portafolio</h3>
+<p>Portfolio from the Macro Training in Artificial Intelligence 2023: anomalies, bioinformatics, pollutants, geodata and a final project on Mexico City air quality.</p>
+<p class="badges">
+  <span class="badge">Jupyter</span>
+  <span class="badge">AI</span>
+  <span class="badge">Data</span>
+</p>
+<img class="project-media" src="../images/MEIA.png" alt="MEIA-2023-Portafolio">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/MEIA-2023-Portafolio" target="_blank" rel="noopener">Repository</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Simulacion_ventilacion_natural</h3>
+<p>Natural ventilation simulation in cavities using finite volumes and the SIMPLEC algorithm. Includes Fortran codes, results and report imagery.</p>
+<p class="badges">
+  <span class="badge">Fortran</span>
+  <span class="badge">CFD</span>
+</p>
+<img class="project-media" src="../images/Ventilacion.png" alt="Simulacion_ventilacion_natural">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Simulacion_ventilacion_natural" target="_blank" rel="noopener">Repository</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Ajedrez-impresion3d</h3>
+<p>Chess pieces modeled in SolidWorks, ready for 3D printing (SLDPRT → STL), with reference renders.</p>
+<p class="badges">
+  <span class="badge">Open-Source</span>
+</p>
+<img class="project-media" src="../images/ajedrez.png" alt="Ajedrez-impresion3d">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Ajedrez-impresion3d" target="_blank" rel="noopener">Repository</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="project-card">
+<h3>Mesa_giratoria_impresion-3d</h3>
+<p>Turntable design in SolidWorks for 3D printing, plus electrical diagram in Fritzing. Assemblies/parts (SLDASM/SLDPRT), STL files and assembly imagery.</p>
+<p class="badges">
+  <span class="badge">Open-Source</span>
+</p>
+<img class="project-media" src="../images/mesa.png" alt="Mesa_giratoria_impresion-3d">
+<p class="links">
+  <a class="btn btn-sm btn-primary" href="https://github.com/JulioLanda4/Mesa_giratoria_impresion-3d" target="_blank" rel="noopener">Repository</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-12">
+<div class="project-card private">
+<h3>Sistema_medicion_apertura_ventanas <span class="lock">Private</span></h3>
+<p>Private repository. Role: collaborator. Window opening/closing logging with timestamp for comfort/ventilation studies.</p>
+<p class="badges">
+  <span class="badge">Hardware</span>
+  <span class="badge">Firmware</span>
+  <span class="badge">IoT</span>
+  <span class="badge">Comfort/Ventilation</span>
+  <span class="badge">Collaborator</span>
+</p>
+<img class="project-media" src="../images/apertura_ventanas.jpg" alt="Sistema_medicion_apertura_ventanas">
+<p class="links">
+  <a class="btn btn-sm btn-outline-secondary disabled" tabindex="-1" aria-disabled="true">Private repo</a>
+</p>
+</div>
+</div>
+
+<div class="col-md-12">
+<div class="project-card private">
+<h3>DH2O <span class="lock">Private</span></h3>
+<p>Private repository (lata‑mas). Role: collaborator.</p>
+<p class="badges">
+  <span class="badge">Collaborator</span>
+  <span class="badge">Private</span>
+</p>
+<img class="project-media" src="../images/mesa.png" alt="DH2O">
+<p class="links">
+  <a class="btn btn-sm btn-outline-secondary disabled" tabindex="-1" aria-disabled="true">Private repo</a>
+</p>
+</div>
+</div>
+
+</div>
+

@@ -20,6 +20,9 @@ website:
       - href: about.qmd
         text: Acerca de mí
     right:
+      - text: Idioma
+        href: "#"
+        aria-label: Language Switch
       - icon: envelope
         aria-label: Email
         href: "mailto:landajulioc@gmail.com"
@@ -37,6 +40,7 @@ format:
   html:
     theme: flatly
     css: styles.css
+    include-in-header: lang-pref.html
     include-after-body: project-links.html
     body-attrs:
       data-github-owner: JulioLanda4

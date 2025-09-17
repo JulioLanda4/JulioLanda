@@ -1,0 +1,42 @@
+---
+title: "Julio Landa"
+subtitle: "Renewable Energy · IoT · Data"
+page-layout: full
+format:
+  html:
+    lang: en
+about:
+  template: trestles
+  image: ../images/Perfil.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: "mailto:landajulioc@gmail.com"
+    - icon: linkedin
+      text: LinkedIn
+      href: "https://www.linkedin.com/in/JulioLanda4"
+    - icon: github
+      text: GitHub
+      href: "https://github.com/JulioLanda4"
+    - icon: link-45deg
+      text: ORCID
+      href: "https://orcid.org/0009-0006-2067-6624"
+---
+
+Mechatronics engineer with a master's degree in Renewable Energy, specializing in bioclimatic design, thermal comfort, and with an interest in solar thermal energy and automation. I work with Python for data acquisition, analysis, and visualization, developing reproducible and clear solutions. I am motivated by research and science, always seeking to combine technology with creativity to generate useful and humane projects.
+
+
+## Education
+- M.Sc. in Renewable Energy — IER‑UNAM (2023–2025)
+- B.Eng. in Mechatronics — Universidad Tecnológica de Emiliano Zapata (UTEZ) (2018–2020)
+
+## Experience
+- Physics and Mathematics Teacher — NC School (2024–2025)
+- HW/SW Developer (Thermal Comfort IoT) — IER‑UNAM (2023–2025)
+
+## Highlights
+
+### IoT smartwatch for thermal comfort
+Open design based on XIAO ESP32C3, MAX30102, GY‑906; LVGL UI and ThingsBoard backend.  
+[Thesis](../publicaciones.html#tesis-reloj) · [Article](../publicaciones.html#articulo-reloj) · [Repository](https://github.com/JulioLanda4/IoT_Reloj_Confort)
+

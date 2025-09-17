@@ -139,6 +139,23 @@ h3 { margin-top: .25rem; margin-bottom: .5rem; }
 .gallery-scroll { position: relative; z-index: 0; }
 .gallery-arrow { z-index: 10000; }
 
+/* Lang toggle active state */
+.navbar a.lang-active { font-weight: 700; border-bottom: 2px solid currentColor; }
+
+/* Language switch */
+.lang-switch { display:flex; align-items:center; gap:.5rem; }
+.lang-switch .label { font-weight:600; font-size:.9rem; }
+.lang-toggle { position: relative; width: 64px; height: 28px; background:#e5e7eb; border-radius:999px; cursor:pointer; transition: background .2s ease; display:inline-block; border:1px solid #d1d5db; }
+.lang-toggle input { display:none; }
+.lang-toggle .thumb { position:absolute; top:3px; left:3px; width:22px; height:22px; background:#fff; border-radius:999px; box-shadow:0 1px 4px rgba(0,0,0,.2); transition: left .2s ease; }
+.lang-toggle .es, .lang-toggle .en { position:absolute; top:5px; font-size:.75rem; font-weight:700; color:#374151; opacity:.45; transition: opacity .2s ease, color .2s ease; }
+.lang-toggle .es { left:9px; }
+.lang-toggle .en { right:9px; }
+.lang-toggle.checked { background:#c7d2fe; border-color:#a5b4fc; }
+.lang-toggle.checked .thumb { left:33px; }
+.lang-toggle.checked .en { opacity:1; color:#111827; }
+.lang-toggle:not(.checked) .es { opacity:1; color:#111827; }
+
 /* Lightbox for project images */
 .project-media { cursor: zoom-in; }
 .lightbox-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.82); display: none; align-items: center; justify-content: center; z-index: 11000; padding: 4vw; }

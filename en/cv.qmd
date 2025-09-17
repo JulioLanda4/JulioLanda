@@ -1,0 +1,17 @@
+---
+title: "Curriculum"
+page-layout: article
+format:
+  html:
+    lang: en
+---
+
+[Download CV (PDF)](../files/CV-JulioLanda-in.pdf){.btn .btn-primary target=_blank}
+
+## Preview
+```{=html}
+<div class="card-lite" style="padding:0; overflow:hidden; border-radius:12px;">
+  <iframe src="../files/CV-JulioLanda-in.pdf#view=FitH" width="100%" height="1050" style="border:0;" title="CV Julio Landa (PDF)"></iframe>
+</div>
+```
+

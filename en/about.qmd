@@ -1,0 +1,52 @@
+---
+title: "About"
+page-layout: full
+format:
+  html:
+    lang: en
+---
+
+<div class="section-card">
+
+I consider myself a dedicated, versatile, meticulous, and creative person. I enjoy working in a team and learning from other perspectives, although I also greatly value working on my own, focused and in silence. This combination has accompanied me in different projects and experiences, and has given me a balance between the collective and the personal.
+
+Sports play an important role in my life: I play soccer and athletics, which have taught me discipline, perseverance, and the satisfaction of gradually improving myself. Drawing and photography are hobbies that allow me to relax and keep my creative side alive, with no other goal than to enjoy the process.
+
+Traveling and learning about other cultures is another important part of my life. It helps me broaden my vision and adapt easily to different contexts, something that I also transfer to my personal and academic projects.
+
+Right now, I am motivated to continue growing in research and science, with a special interest in solar thermal energy, automation, bioclimatic design, and data analysis. I seek to find a balance between the technical and the human: to create solutions that are born out of curiosity and rigor, but that bring practical value to everyday life.
+
+</div>
+
+## Gallery
+
+```{=html}
+<div class="gallery-wrap">
+  <button class="gallery-arrow left" aria-label="Previous">&#10094;</button>
+  <button class="gallery-arrow right" aria-label="Next">&#10095;</button>
+  <div class="gallery-scroll" id="about-gallery">
+    <div class="gallery-spacer"></div>
+    <img class="gallery-item" src="../images/1.jpg" alt="Gallery 1" />
+    <img class="gallery-item" src="../images/2.jpg" alt="Gallery 2" />
+    <img class="gallery-item" src="../images/3.jpg" alt="Gallery 3" />
+    <img class="gallery-item" src="../images/4.jpg" alt="Gallery 4" />
+    <img class="gallery-item" src="../images/5.jpg" alt="Gallery 5" />
+    <img class="gallery-item" src="../images/6.jpg" alt="Gallery 6" />
+    <img class="gallery-item" src="../images/7.jpg" alt="Gallery 7" />
+    <img class="gallery-item" src="../images/8.jpg" alt="Gallery 8" />
+    <img class="gallery-item" src="../images/9.jpg" alt="Gallery 9" />
+    <img class="gallery-item" src="../images/10.jpg" alt="Gallery 10" />
+    <img class="gallery-item" src="../images/11.jpg" alt="Gallery 11" />
+    <img class="gallery-item" src="../images/12.jpg" alt="Gallery 12" />
+    <img class="gallery-item" src="../images/13.jpg" alt="Gallery 13" />
+    <img class="gallery-item" src="../images/14.jpg" alt="Gallery 14" />
+    <img class="gallery-item" src="../images/15.jpg" alt="Gallery 15" />
+    <div class="gallery-spacer"></div>
+  </div>
+</div>
+```
+
+```{=html}
+<script src="../about-gallery.js"></script>
+```
+

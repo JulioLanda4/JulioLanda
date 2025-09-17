@@ -40,6 +40,83 @@
   document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.project-card').forEach(enhance);
 
+    // Persistent language (ES <-> EN) using path prefix /en/ and localStorage
+    const getCurrentLang = () => location.pathname.split('/').includes('en') ? 'en' : 'es';
+    const setPrefLang = (lang) => { try { localStorage.setItem('siteLang', lang); } catch(_){} };
+    const getPrefLang = () => {
+      try { return localStorage.getItem('siteLang') || getCurrentLang(); } catch(_) { return getCurrentLang(); }
+    };
+    const pathWithLang = (lang, path) => {
+      const segs = (path || location.pathname).split('/');
+      // ensure filename
+      let last = segs[segs.length-1];
+      if (!last || last === '') segs[segs.length-1] = 'index.html';
+      const hasEN = segs.includes('en');
+      if (lang === 'en' && !hasEN) segs.splice(segs.length-1, 0, 'en');
+      if (lang === 'es' && hasEN) segs.splice(segs.indexOf('en'), 1);
+      return segs.join('/');
+    };
+    const applyLangToLinks = (lang) => {
+      const anchors = document.querySelectorAll('a[href]');
+      anchors.forEach(a => {
+        const href = a.getAttribute('href');
+        if (!href || href.startsWith('http') || href.startsWith('mailto:') || href.startsWith('#')) return;
+        const u = new URL(href, location.href);
+        // only same-origin internal html pages
+        if (u.origin !== location.origin) return;
+        if (!/\.html?$/.test(u.pathname)) return;
+        u.pathname = pathWithLang(lang, u.pathname);
+        a.setAttribute('href', u.pathname + u.search + u.hash);
+      });
+    };
+    // Build a language switch in the navbar
+    const navLinks = Array.from(document.querySelectorAll('.navbar a, .quarto-navbar-tools a'));
+    const placeholder = navLinks.find(a => a.getAttribute('aria-label')==='Language Switch' || ((a.textContent||'').trim().toLowerCase()==='idioma'));
+    let switchEl = null;
+    const mountSwitch = (current) => {
+      if (!placeholder || switchEl) return;
+      const wrap = document.createElement('span');
+      wrap.className = 'lang-switch';
+      const toggle = document.createElement('span');
+      toggle.className = 'lang-toggle';
+      toggle.innerHTML = '<span class="es">ES</span><span class="en">EN</span><span class="thumb"></span>';
+      if (current==='en') toggle.classList.add('checked');
+      wrap.appendChild(toggle);
+      placeholder.replaceWith(wrap);
+      switchEl = toggle;
+      toggle.setAttribute('role','switch');
+      toggle.setAttribute('aria-label','Language');
+      toggle.setAttribute('aria-checked', current==='en' ? 'true' : 'false');
+      toggle.addEventListener('click', () => {
+        const next = (getPrefLang()==='en') ? 'es' : 'en';
+        setPrefLang(next);
+        const dest = pathWithLang(next, location.pathname);
+        location.href = dest + location.search + location.hash;
+      });
+      toggle.addEventListener('keydown', (e) => {
+        if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); toggle.click(); }
+      });
+    };
+    const reflectSwitch = (lang) => {
+      if (!switchEl) return;
+      if (lang==='en') switchEl.classList.add('checked'); else switchEl.classList.remove('checked');
+      switchEl.setAttribute('aria-checked', lang==='en' ? 'true' : 'false');
+    };
+    // Enforce preferred language on initial load
+    const pref = getPrefLang();
+    if (pref !== getCurrentLang()) {
+      const dest = pathWithLang(pref, location.pathname);
+      // Redirect once to preferred language
+      location.replace(dest + location.search + location.hash);
+    } else {
+      // Rewrite internal links to keep language across navigation
+      applyLangToLinks(pref);
+      mountSwitch(pref);
+      reflectSwitch(pref);
+    }
+    // If switch placeholder exists and we redirected earlier, still mount it
+    if (placeholder && !switchEl) { mountSwitch(getPrefLang()); reflectSwitch(getPrefLang()); }
+
     // Mini zoom popover for project images (positioned over the image)
     const imgs = Array.from(document.querySelectorAll('.project-media'));
     if (imgs.length) {
