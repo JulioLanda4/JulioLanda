@@ -124,7 +124,11 @@
           // basename, ignoring any /en/ segment
           const parts = u.pathname.split('/').filter(Boolean);
           const file = parts[parts.length-1] || 'index.html';
-          if (map[file]) a.textContent = map[file];
+          if (map[file]) {
+            const target = a.querySelector('.menu-text');
+            if (target) target.textContent = map[file];
+            else a.textContent = map[file];
+          }
         });
       };
       const setFooterLabels = (lang) => {
@@ -183,3 +187,4 @@
     }
   });
 })();
+
