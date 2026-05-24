@@ -1,11 +1,14 @@
 ﻿project:
   type: website
   output-dir: docs
+  resources:
+    - files/CV-JulioLanda.pdf
+    - files/CV-JulioLanda-in.pdf
 
 website:
   title: "Julio Landa" 
   page-footer: 
-    center:  "© Julio Landa · {{< year >}} · Código: <a href='https://opensource.org/license/mit/'>MIT</a> · Contenido: <a href='https://creativecommons.org/licenses/by-nc/4.0/'>CC BY‑NC 4.0</a>"
+    center:  "© Julio Landa · 2026 · Código: <a href='https://opensource.org/license/mit/'>MIT</a> · Contenido: <a href='https://creativecommons.org/licenses/by-nc/4.0/'>CC BY‑NC 4.0</a>"
   favicon: images/Perfil.jpg
   navbar:
     left:

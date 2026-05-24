@@ -178,3 +178,112 @@ h3 { margin-top: .25rem; margin-bottom: .5rem; }
 /* Mini zoom popover for project images */
 .lightbox-overlay.mini { background: transparent; }
 .lightbox-overlay.mini img { max-width: 520px; max-height: 520px; }
+
+/* CV generated from Quarto */
+.cv-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin: 0 0 1rem;
+}
+
+.cv-sheet {
+  display: grid;
+  grid-template-columns: minmax(230px, 30%) 1fr;
+  gap: 1.4rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 26px rgba(0,0,0,.08);
+  overflow: hidden;
+}
+
+.cv-sidebar {
+  background: #f1f4f8;
+  padding: 1.45rem 1.2rem;
+  color: #26313d;
+}
+
+.cv-sidebar h1 {
+  margin: 0;
+  font-size: clamp(1.7rem, 2.8vw, 2.3rem);
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.cv-subtitle,
+.cv-sidebar > p:first-of-type {
+  margin: .65rem 0 1.4rem;
+  font-size: .98rem;
+  line-height: 1.35;
+  color: #4b5b6b;
+}
+
+.cv-sidebar h2 {
+  margin: 1.15rem 0 .45rem;
+  padding-bottom: .25rem;
+  border-bottom: 1px solid #cbd5e1;
+  font-size: .88rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.cv-sidebar p,
+.cv-sidebar li {
+  font-size: .9rem;
+  line-height: 1.35;
+}
+
+.cv-sidebar ul {
+  padding-left: 1.1rem;
+  margin: 0;
+}
+
+.cv-sidebar li {
+  margin-bottom: .45rem;
+}
+
+.cv-main {
+  padding: 1.35rem 1.45rem 1.6rem 0;
+}
+
+.cv-main h2 {
+  margin: 0 0 .75rem;
+  padding-bottom: .3rem;
+  border-bottom: 2px solid #26313d;
+  color: #26313d;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  letter-spacing: 0;
+}
+
+.cv-main h3 {
+  margin: .85rem 0 .2rem;
+  color: #17202a;
+  font-size: 1rem;
+}
+
+.cv-main p,
+.cv-main li {
+  font-size: .95rem;
+  line-height: 1.43;
+}
+
+.cv-main p {
+  margin-bottom: .55rem;
+}
+
+.cv-main ul {
+  margin-top: .25rem;
+}
+
+@media (max-width: 760px) {
+  .cv-sheet {
+    grid-template-columns: 1fr;
+  }
+
+  .cv-main {
+    padding: 1.2rem;
+  }
+}

@@ -1,0 +1,147 @@
+\usepackage{paracol}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{fontspec}
+\usepackage{tikz}
+\usepackage{fontawesome5}
+
+\pagestyle{empty}
+\setmainfont{Arial}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.24em}
+\setlength{\columnsep}{0.9cm}
+\setlength{\columnseprule}{0pt}
+\emergencystretch=2em
+
+% Site-aligned palette: Flatly navy plus teal accent.
+\definecolor{cvnavy}{HTML}{2C3E50}
+\definecolor{cvnavydeep}{HTML}{243545}
+\definecolor{cvteal}{HTML}{18BC9C}
+\definecolor{cvink}{HTML}{24313D}
+\definecolor{cvmuted}{HTML}{5D6D7E}
+\definecolor{cvsoft}{HTML}{EEF3F6}
+\definecolor{cvline}{HTML}{D7E0E6}
+
+\newcommand{\cvheader}[2]{%
+  \vspace*{-0.35cm}%
+  \noindent
+  \begin{minipage}[t]{0.64\textwidth}
+    {\color{cvnavy}\fontsize{26}{28}\selectfont\bfseries\MakeUppercase{#1}}\par
+    \vspace{0.08cm}
+    {\color{cvteal}\fontsize{10.5}{12}\selectfont #2}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[t]{0.27\textwidth}
+    \raggedleft
+    {\color{cvnavy}\fontsize{28}{28}\selectfont\bfseries JL}
+  \end{minipage}
+  \par\vspace{0.42cm}
+}
+
+\newcommand{\cvpaintsidebar}{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \fill[cvnavy]
+      ([xshift=-0.36\paperwidth]current page.north east)
+      rectangle
+      (current page.south east);
+    \fill[cvteal]
+      ([xshift=-0.36\paperwidth]current page.north east)
+      rectangle
+      ([xshift=-0.352\paperwidth]current page.south east);
+    \node[
+      circle,
+      fill=cvsoft,
+      draw=cvteal,
+      line width=1pt,
+      minimum size=1.62cm,
+      text=cvnavy,
+      font=\bfseries\fontsize{18}{18}\selectfont
+    ] at ([xshift=-0.18\paperwidth,yshift=-1.48cm]current page.north east) {JL};
+  \end{tikzpicture}%
+}
+
+\titleformat{\section}
+  {\fontsize{13.2}{15}\selectfont\bfseries\color{cvnavy}\MakeUppercase}
+  {}
+  {0pt}
+  {}
+  [\vspace{-0.42em}{\color{cvline}\titlerule[0.65pt]}]
+\titlespacing*{\section}{0pt}{0.62em}{0.42em}
+
+\titleformat{\subsection}
+  {\fontsize{11.2}{13}\selectfont\bfseries\color{cvnavy}\MakeUppercase}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\subsection}{0pt}{0.62em}{0.25em}
+
+\titleformat{\subsubsection}
+  {\fontsize{10.8}{12.8}\selectfont\bfseries\color{cvink}}
+  {}
+  {0pt}
+  {}
+\titlespacing*{\subsubsection}{0pt}{0.5em}{0.04em}
+
+\setlist[itemize]{
+  leftmargin=1.05em,
+  itemsep=0.11em,
+  topsep=0.08em,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newenvironment{cvcolumns}{%
+  \cvpaintsidebar
+  \columnratio{0.65}
+  \begin{paracol}{2}
+  \fontsize{9.25}{11.15}\selectfont
+  \sloppy
+}{%
+  \end{paracol}
+}
+
+\newenvironment{cvsidebar}{%
+  \color{white}
+  \vspace*{0.08cm}
+  \fontsize{8.05}{9.55}\selectfont
+  \leftskip=0.42cm
+  \rightskip=0.38cm
+  \cvsideformat
+  \renewcommand{\labelitemi}{\textcolor{cvteal}{\textbullet}}
+  \setlist[itemize]{
+    leftmargin=0.62cm,
+    rightmargin=0.18cm,
+    itemsep=0.09em,
+    topsep=0.06em,
+    parsep=0pt,
+    partopsep=0pt
+  }
+}{%
+}
+
+\newcommand{\cvcontactitem}[2]{%
+  \noindent
+  \begin{tabular}{@{}p{0.34cm}@{\hspace{0.22cm}}p{0.76\linewidth}@{}}
+    {\color{cvteal}\footnotesize #1} & {\color{white}#2}
+  \end{tabular}\par\vspace{0.34em}
+}
+
+\makeatletter
+\newcommand{\cvsideformat}{%
+  \titleformat{\section}
+    {\fontsize{9.4}{11}\selectfont\bfseries\color{white}\MakeUppercase}
+    {}
+    {0pt}
+    {}
+    [\vspace{-0.35em}{\color{cvteal}\titlerule[0.55pt]}]
+  \titlespacing*{\section}{0.42cm}{0.62em}{0.32em}
+  \titleformat{\subsection}
+    {\fontsize{9.1}{10.6}\selectfont\bfseries\color{white}\MakeUppercase}
+    {}
+    {0pt}
+    {}
+  \titlespacing*{\subsection}{0.42cm}{0.52em}{0.22em}
+}
+\makeatother
