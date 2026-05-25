@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "publicaciones.html",
-    "href": "publicaciones.html",
-    "title": "Publicaciones",
-    "section": "",
-    "text": "Tesis\n\n\nReloj inteligente IoT basado en tecnologías abiertas para la recopilación de datos de confort térmico\n\n\nDesarrollo de un reloj inteligente y plataforma IoT para encuestas de confort térmico y medición de variables fisiológicas.\n\n\nTesis de maestría IoT Confort térmico En proceso de publicación (UNAM)\n\n\nSitio\n\n\n\n\n\n\nArtículo\n\n\nIoT smartwatch based on open technologies for the collection of thermal comfort data\n\n\nPresenta el diseño abierto del smartwatch, metodología de adquisición de datos de confort y validaciones experimentales. HardwareX, 2025\n\n\nArtículo HardwareX 2025\n\n\nDOI"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Julio Landa",
@@ -25,7 +18,7 @@
     "href": "index.html#experiencia",
     "title": "Julio Landa",
     "section": "Experiencia",
-    "text": "Experiencia\n\nDocente de Física y Matemáticas — NC School (2024–2025)\nDesarrollador HW/SW (IoT de confort térmico) — IER‑UNAM (2023–2025)"
+    "text": "Experiencia\n\nDocente de Física y Matemáticas — NC School (2024–2025)\nDesarrollador HW/SW (IoT de confort térmico) — IER‑UNAM (2023–2025)\nCoordinador General del CNEER — Congreso Nacional de Estudiantes de Energías Renovables (2026)"
   },
   {
     "objectID": "index.html#proyectos-destacados",
@@ -35,11 +28,81 @@
     "text": "Proyectos destacados\n\nReloj inteligente IoT de confort térmico\nDispositivo y plataforma abierta: XIAO ESP32C3, MAX30102, GY‑906; interfaz en LVGL y backend en ThingsBoard.\nTesis · Artículo · Repositorio"
   },
   {
+    "objectID": "contacto.html",
+    "href": "contacto.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "Correo: landajulioc@gmail.com\n\nORCID: 0009-0006-2067-6624\n\nLinkedIn: LinkedIn\n\nGitHub: @JulioLanda4"
+  },
+  {
+    "objectID": "proyectos.html",
+    "href": "proyectos.html",
+    "title": "Proyectos",
+    "section": "",
+    "text": "IoT_Reloj_Confort\n\n\nReloj inteligente e infraestructura IoT para encuestas de confort térmico y medición de variables fisiológicas (XIAO ESP32C3, MAX30102, GY-906, LVGL). Incluye firmware, interfaz y backend en ThingsBoard.\n\n\nC ESP32C3 LVGL ThingsBoard\n\n\n\nTesis Artículo Repositorio\n\n\n\n\n\n\nLampara_acrilico\n\n\nLámpara artesanal de acrílico modelada en SolidWorks. Incluye ensambles y piezas (SLDASM/SLDPRT), renders y archivos para fabricación.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nMecanismos\n\n\nColección de levas, mecanismos y un rodamiento modelados en SolidWorks. Contiene ensambles y piezas con vistas previas.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nMicroondas_LabVIEW\n\n\nProyecto “Microondas” implementado en LabVIEW. Incluye VIs/CTLs y archivo de proyecto, con imágenes de referencia e instrucciones de apertura.\n\n\nLabVIEW\n\n\n\nRepositorio\n\n\n\n\n\n\nPrenda_generadora\n\n\nProyecto de investigación de prenda generadora de energía. Reúne evidencias, reportes, programas en LabVIEW, diagramas en Proteus, datos y resultados.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nAjuste_Calificaciones\n\n\nSitio en Quarto para cálculo y ajuste de calificaciones por unidad. Diseñado para despliegue en GitHub Pages.\n\n\nHTML Quarto GitHub Pages Educación\n\n\n\nSitio Repositorio\n\n\n\n\n\n\nEstrategias_bioclimaticas_vivienda\n\n\nDiseño bioclimático en clima semifrío seco (Pachuca, Hidalgo). Evalúa estrategias pasivas como absortancia, ventanas Low‑e y sistemas con masa térmica para reducir grados‑hora de disconfort y mejorar el confort térmico.\n\n\nHTML Bioclimática\n\n\n\nRepositorio\n\n\n\n\n\n\nMEIA-2023-Portafolio\n\n\nPortafolio del Macro Entrenamiento en Inteligencia Artificial 2023: anomalías, bioinformática, contaminantes, geodatos y proyecto final sobre calidad del aire en CDMX.\n\n\nJupyter IA Datos\n\n\n\nRepositorio\n\n\n\n\n\n\nSimulacion_ventilacion_natural\n\n\nSimulación de ventilación natural en cavidades mediante volúmenes finitos y el algoritmo SIMPLEC. Incluye códigos en Fortran, resultados y reporte con campos de velocidad y presión.\n\n\nFortran CFD\n\n\n\nRepositorio\n\n\n\n\n\n\nAjedrez-impresion3d\n\n\nConjunto de piezas de ajedrez modeladas en SolidWorks y listas para impresión 3D. Incluye archivos fuente (SLDPRT) y exportados a STL, además de imágenes y renders de referencia.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nMesa_giratoria_impresion-3d\n\n\nMesa giratoria con diseño mecánico en SolidWorks, piezas para impresión 3D y diagrama eléctrico en Fritzing. Contiene ensambles y partes (SLDASM/SLDPRT), archivos STL e imágenes del ensamblaje.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nSistema_medicion_apertura_ventanas Privado\n\n\nSistema de registro de apertura/cierre de ventanas con sello temporal para estudios de confort y ventilación. Repositorio privado. Rol: colaborador.\n\n\nHardware Firmware IoT Confort/Ventilación Colaborador\n\n\n\nRepo privado\n\n\n\n\n\n\nDH2O Privado\n\n\nRepositorio privado del proyecto DH2O (lata‑mas). Rol: colaborador.\n\n\nColaborador Privado\n\n\n\nRepo privado"
+  },
+  {
+    "objectID": "en/index.html",
+    "href": "en/index.html",
+    "title": "Julio Landa",
+    "section": "",
+    "text": "Mechatronics engineer with a master’s degree in Renewable Energy, specializing in bioclimatic design, thermal comfort, and with an interest in solar thermal energy and automation. I work with Python for data acquisition, analysis, and visualization, developing reproducible and clear solutions. I am motivated by research and science, always seeking to combine technology with creativity to generate useful and humane projects."
+  },
+  {
+    "objectID": "en/index.html#education",
+    "href": "en/index.html#education",
+    "title": "Julio Landa",
+    "section": "Education",
+    "text": "Education\n\nM.Sc. in Renewable Energy — IER‑UNAM (2023–2025)\nB.Eng. in Mechatronics — Universidad Tecnológica de Emiliano Zapata (UTEZ) (2018–2020)"
+  },
+  {
+    "objectID": "en/index.html#experience",
+    "href": "en/index.html#experience",
+    "title": "Julio Landa",
+    "section": "Experience",
+    "text": "Experience\n\nPhysics and Mathematics Teacher — NC School (2024–2025)\nHW/SW Developer (Thermal Comfort IoT) — IER‑UNAM (2023–2025)\nGeneral Coordinator of CNEER — National Congress of Renewable Energy Students (2026)"
+  },
+  {
+    "objectID": "en/index.html#highlights",
+    "href": "en/index.html#highlights",
+    "title": "Julio Landa",
+    "section": "Highlights",
+    "text": "Highlights\n\nIoT smartwatch for thermal comfort\nOpen design based on XIAO ESP32C3, MAX30102, GY‑906; LVGL UI and ThingsBoard backend.\nThesis · Article · Repository"
+  },
+  {
+    "objectID": "en/contacto.html",
+    "href": "en/contacto.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: landajulioc@gmail.com\n\nORCID: 0009-0006-2067-6624\n\nLinkedIn: LinkedIn\n\nGitHub: @JulioLanda4"
+  },
+  {
     "objectID": "en/proyectos.html",
     "href": "en/proyectos.html",
     "title": "Projects",
     "section": "",
     "text": "IoT_Reloj_Confort\n\n\nOpen IoT smartwatch and platform for thermal comfort surveys and physiological variables (XIAO ESP32C3, MAX30102, GY‑906, LVGL; ThingsBoard backend).\n\n\nC ESP32C3 LVGL ThingsBoard\n\n\n\nThesis Article Repository\n\n\n\n\n\n\nLampara_acrilico\n\n\nAcrylic craft lamp modeled in SolidWorks. Assemblies/parts (SLDASM/SLDPRT), renders and files for fabrication.\n\n\nOpen-Source\n\n\n\nRepository\n\n\n\n\n\n\nMecanismos\n\n\nCollection of cams, mechanisms and a bearing modeled in SolidWorks. Includes assemblies and parts with previews.\n\n\nOpen-Source\n\n\n\nRepository\n\n\n\n\n\n\nMicroondas_LabVIEW\n\n\n“Microwave” project in LabVIEW. Includes VIs/CTLs and project file, with reference images and open instructions.\n\n\nLabVIEW\n\n\n\nRepository\n\n\n\n\n\n\nPrenda_generadora\n\n\nWearable energy‑harvesting research project. Evidence, reports, LabVIEW programs, Proteus schematics, data and results.\n\n\nOpen-Source\n\n\n\nRepository\n\n\n\n\n\n\nAjuste_Calificaciones\n\n\nQuarto site to compute and adjust unit grades; designed for GitHub Pages deployment.\n\n\nHTML Quarto GitHub Pages Education\n\n\n\nSite Repository\n\n\n\n\n\n\nEstrategias_bioclimaticas_vivienda\n\n\nBioclimatic design for a semi‑cold dry climate (Pachuca, Mexico). Evaluates passive strategies like absorptance, Low‑e windows and thermal mass to reduce degree‑hours of discomfort.\n\n\nHTML Bioclimatics\n\n\n\nRepository\n\n\n\n\n\n\nMEIA-2023-Portafolio\n\n\nPortfolio from the Macro Training in Artificial Intelligence 2023: anomalies, bioinformatics, pollutants, geodata and a final project on Mexico City air quality.\n\n\nJupyter AI Data\n\n\n\nRepository\n\n\n\n\n\n\nSimulacion_ventilacion_natural\n\n\nNatural ventilation simulation in cavities using finite volumes and the SIMPLEC algorithm. Includes Fortran codes, results and report imagery.\n\n\nFortran CFD\n\n\n\nRepository\n\n\n\n\n\n\nAjedrez-impresion3d\n\n\nChess pieces modeled in SolidWorks, ready for 3D printing (SLDPRT → STL), with reference renders.\n\n\nOpen-Source\n\n\n\nRepository\n\n\n\n\n\n\nMesa_giratoria_impresion-3d\n\n\nTurntable design in SolidWorks for 3D printing, plus electrical diagram in Fritzing. Assemblies/parts (SLDASM/SLDPRT), STL files and assembly imagery.\n\n\nOpen-Source\n\n\n\nRepository\n\n\n\n\n\n\nSistema_medicion_apertura_ventanas Private\n\n\nPrivate repository. Role: collaborator. Window opening/closing logging with timestamp for comfort/ventilation studies.\n\n\nHardware Firmware IoT Comfort/Ventilation Collaborator\n\n\n\nPrivate repo\n\n\n\n\n\n\nDH2O Private\n\n\nPrivate repository (lata‑mas). Role: collaborator.\n\n\nCollaborator Private\n\n\n\nPrivate repo"
+  },
+  {
+    "objectID": "en/about.html",
+    "href": "en/about.html",
+    "title": "About",
+    "section": "",
+    "text": "I consider myself a dedicated, versatile, meticulous, and creative person. I enjoy working in a team and learning from other perspectives, although I also greatly value working on my own, focused and in silence. This combination has accompanied me in different projects and experiences, and has given me a balance between the collective and the personal.\nSports play an important role in my life: I play soccer and athletics, which have taught me discipline, perseverance, and the satisfaction of gradually improving myself. Drawing and photography are hobbies that allow me to relax and keep my creative side alive, with no other goal than to enjoy the process.\nTraveling and learning about other cultures is another important part of my life. It helps me broaden my vision and adapt easily to different contexts, something that I also transfer to my personal and academic projects.\nRight now, I am motivated to continue growing in research and science, with a special interest in solar thermal energy, automation, bioclimatic design, and data analysis. I seek to find a balance between the technical and the human: to create solutions that are born out of curiosity and rigor, but that bring practical value to everyday life."
+  },
+  {
+    "objectID": "en/about.html#gallery",
+    "href": "en/about.html#gallery",
+    "title": "About",
+    "section": "Gallery",
+    "text": "Gallery\n\n  ❮\n  ❯"
+  },
+  {
+    "objectID": "en/publicaciones.html",
+    "href": "en/publicaciones.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Thesis\n\n\nOpen‑technology IoT smartwatch for collecting thermal comfort data\n\n\nDevelopment of a smartwatch and IoT platform for thermal comfort surveys and physiological measurements.\n\n\nMaster’s thesis IoT Thermal comfort The thesis has been approved and is pending publication.\n\n\nSite\n\n\n\n\n\n\nArticle\n\n\nIoT smartwatch based on open technologies for the collection of thermal comfort data\n\n\nOpen design, data acquisition methodology and experimental validation. HardwareX, 2025\n\n\nArticle HardwareX 2025\n\n\nDOI"
   },
   {
     "objectID": "en/cv.html",
@@ -74,7 +137,7 @@
     "href": "en/cv.html#professional-experience",
     "title": "Curriculum",
     "section": "Professional Experience",
-    "text": "Professional Experience\n\nNC School Cuernavaca\nLead Physics and Mathematics Teacher · 2024-2025\nLead teacher for physics and mathematics courses.\n\n\nIER, UNAM\nTeaching Assistant · 2023-2025\nAssisted with assignments, exams and project assessment for Introduction to Bioclimatic Design in the sixth semester of Renewable Energy Engineering, and served as teaching assistant for second-semester Linear Algebra.\nIoT Developer Engineer · 2020 / 2024-present\nDevelop low-cost devices using open-source hardware and software, integrated with IoT platforms for the instrumentation project of the new Renewable Energy Engineering building at IER, UNAM.\n\n\nCNEER\nWorkshop Coordinator · 2023\nPlanned, organized and coordinated workshops for the 10th edition of CNEER, the National Congress of Renewable Energy Students.\n\n\nDMC Ingenieria\nElectrical Engineer · 2022\nProvided maintenance to electric motors and control panels as a contractor for Cementos Moctezuma.\n\n\nBombas y Servicios Corbala\nElectrical Engineer · 2021\nMaintained and installed deep-well water pumps, and designed and installed control systems and electrical panels.\n\n\nAlucaps\nMaintenance Technician · 2020\nApplied maintenance plans to company machinery, updated and programmed production-line control systems using PLCs, and assembled electrical panels."
+    "text": "Professional Experience\n\nNC School Cuernavaca\nLead Physics and Mathematics Teacher · 2024-2025\nLead teacher for physics and mathematics courses.\n\n\nIER, UNAM\nTeaching Assistant · 2023-2025\nAssisted with assignments, exams and project assessment for Introduction to Bioclimatic Design in the sixth semester of Renewable Energy Engineering, and served as teaching assistant for second-semester Linear Algebra.\nIoT Developer Engineer · 2020 / 2024-present\nDevelop low-cost devices using open-source hardware and software, integrated with IoT platforms for the instrumentation project of the new Renewable Energy Engineering building at IER, UNAM.\n\n\nCNEER\nWorkshop Coordinator · 2023\nPlanned, organized and coordinated workshops for the 10th edition of CNEER, the National Congress of Renewable Energy Students.\n\n\nCNEER\nGeneral Coordinator · 2026\nGeneral Coordinator of the National Congress of Renewable Energy Students (CNEER) 2026.\n\n\nDMC Ingenieria\nElectrical Engineer · 2022\nProvided maintenance to electric motors and control panels as a contractor for Cementos Moctezuma.\n\n\nBombas y Servicios Corbala\nElectrical Engineer · 2021\nMaintained and installed deep-well water pumps, and designed and installed control systems and electrical panels.\n\n\nAlucaps\nMaintenance Technician · 2020\nApplied maintenance plans to company machinery, updated and programmed production-line control systems using PLCs, and assembled electrical panels."
   },
   {
     "objectID": "en/cv.html#education",
@@ -98,27 +161,6 @@
     "text": "Certifications, Courses, Honors & Awards\n\nCertifications\n\nCertified SolidWorks Professional (CSWP) · 2019.\nGoogle IT Automation with Python · 2022.\nLabVIEW Associate Developer · 2019.\n\n\n\nCourses\n\nMacrotraining in Artificial Intelligence (MeIA) · 2023.\nPython for Engineering (UNAM, Coursera) · 2023.\n\n\n\nHonors & Awards\n\n1st place · 2019. 3rd Mathematics Olympiad, Universidad Tecnologica de Emiliano Zapata.\nHonorable Mention · 2023. XXXIII CUAM-ACMor Research Congress, Physics-Mathematics category, project “Ecological Greenhouse from Plastic Waste”.\nRecognition as speaker · 2024. Sustainable Buildings Symposium: Simulations and Digitalization for Decarbonization.\nHonorable Mention · 2025. XXXV CUAM-ACMor Research Congress, Physics-Mathematics category, project “Green Motion: How Do You Move?”."
   },
   {
-    "objectID": "en/about.html",
-    "href": "en/about.html",
-    "title": "About",
-    "section": "",
-    "text": "I consider myself a dedicated, versatile, meticulous, and creative person. I enjoy working in a team and learning from other perspectives, although I also greatly value working on my own, focused and in silence. This combination has accompanied me in different projects and experiences, and has given me a balance between the collective and the personal.\nSports play an important role in my life: I play soccer and athletics, which have taught me discipline, perseverance, and the satisfaction of gradually improving myself. Drawing and photography are hobbies that allow me to relax and keep my creative side alive, with no other goal than to enjoy the process.\nTraveling and learning about other cultures is another important part of my life. It helps me broaden my vision and adapt easily to different contexts, something that I also transfer to my personal and academic projects.\nRight now, I am motivated to continue growing in research and science, with a special interest in solar thermal energy, automation, bioclimatic design, and data analysis. I seek to find a balance between the technical and the human: to create solutions that are born out of curiosity and rigor, but that bring practical value to everyday life."
-  },
-  {
-    "objectID": "en/about.html#gallery",
-    "href": "en/about.html#gallery",
-    "title": "About",
-    "section": "Gallery",
-    "text": "Gallery\n\n  ❮\n  ❯"
-  },
-  {
-    "objectID": "contacto.html",
-    "href": "contacto.html",
-    "title": "Contacto",
-    "section": "",
-    "text": "Correo: landajulioc@gmail.com\n\nORCID: 0009-0006-2067-6624\n\nLinkedIn: LinkedIn\n\nGitHub: @JulioLanda4"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Acerca de mí",
@@ -131,6 +173,13 @@
     "title": "Acerca de mí",
     "section": "Galería",
     "text": "Galería\n\n  ❮\n  ❯"
+  },
+  {
+    "objectID": "publicaciones.html",
+    "href": "publicaciones.html",
+    "title": "Publicaciones",
+    "section": "",
+    "text": "Tesis\n\n\nReloj inteligente IoT basado en tecnologías abiertas para la recopilación de datos de confort térmico\n\n\nDesarrollo de un reloj inteligente y plataforma IoT para encuestas de confort térmico y medición de variables fisiológicas.\n\n\nTesis de maestría IoT Confort térmico En proceso de publicación (UNAM)\n\n\nSitio\n\n\n\n\n\n\nArtículo\n\n\nIoT smartwatch based on open technologies for the collection of thermal comfort data\n\n\nPresenta el diseño abierto del smartwatch, metodología de adquisición de datos de confort y validaciones experimentales. HardwareX, 2025\n\n\nArtículo HardwareX 2025\n\n\nDOI"
   },
   {
     "objectID": "cv.html",
@@ -165,7 +214,7 @@
     "href": "cv.html#experiencia-laboral",
     "title": "Currículum",
     "section": "Experiencia laboral",
-    "text": "Experiencia laboral\n\nNC School Cuernavaca\nProfesor titular de física y matemáticas · 2024-2025\nMe desempeño como profesor titular de las materias de física y matemáticas.\n\n\nIER, UNAM\nProfesor adjunto · 2023-2025\nMe encargo de la revisión de tareas, exámenes y proyectos de la materia de Introducción al Diseño Bioclimático de sexto semestre de Ingeniería en Energías Renovables, y fui profesor adjunto de la materia de Álgebra Lineal de segundo semestre.\nIngeniero desarrollador IoT · 2020 / 2024-actualidad\nTrabajo desarrollando dispositivos de bajo costo con hardware y software de código abierto, vinculados a plataformas IoT para el proyecto de instrumentación del nuevo edificio de la LIER.\n\n\nCNEER\nCoordinador de talleres · 2023\nPlaneé, organicé y coordiné los talleres del Congreso Nacional de Estudiantes de Energías Renovables en su décima edición.\n\n\nDMC Ingeniería\nIngeniero eléctrico · 2022\nTrabajé dando mantenimiento a motores eléctricos y tableros de control como contratista para Cementos Moctezuma.\n\n\nBombas y Servicios Corbala\nIngeniero eléctrico · 2021\nTrabajé dando mantenimiento e instalando bombas de agua para pozos profundos, así como diseñando e instalando sistemas y tableros de control.\n\n\nAlucaps\nTécnico en mantenimiento · 2020\nApliqué planes de mantenimiento a la maquinaria de la empresa y trabajé en la actualización y programación del sistema de control de una línea de producción utilizando PLC, así como en el armado del tablero eléctrico."
+    "text": "Experiencia laboral\n\nNC School Cuernavaca\nProfesor titular de física y matemáticas · 2024-2025\nMe desempeño como profesor titular de las materias de física y matemáticas.\n\n\nIER, UNAM\nProfesor adjunto · 2023-2025\nMe encargo de la revisión de tareas, exámenes y proyectos de la materia de Introducción al Diseño Bioclimático de sexto semestre de Ingeniería en Energías Renovables, y fui profesor adjunto de la materia de Álgebra Lineal de segundo semestre.\nIngeniero desarrollador IoT · 2020 / 2024-actualidad\nTrabajo desarrollando dispositivos de bajo costo con hardware y software de código abierto, vinculados a plataformas IoT para el proyecto de instrumentación del nuevo edificio de la LIER.\n\n\nCNEER\nCoordinador de talleres · 2023\nPlaneé, organicé y coordiné los talleres del Congreso Nacional de Estudiantes de Energías Renovables en su décima edición.\n\n\nCNEER\nCoordinador General · 2026\nCoordinador General del Congreso Nacional de Estudiantes de Energías Renovables (CNEER) 2026.\n\n\nDMC Ingeniería\nIngeniero eléctrico · 2022\nTrabajé dando mantenimiento a motores eléctricos y tableros de control como contratista para Cementos Moctezuma.\n\n\nBombas y Servicios Corbala\nIngeniero eléctrico · 2021\nTrabajé dando mantenimiento e instalando bombas de agua para pozos profundos, así como diseñando e instalando sistemas y tableros de control.\n\n\nAlucaps\nTécnico en mantenimiento · 2020\nApliqué planes de mantenimiento a la maquinaria de la empresa y trabajé en la actualización y programación del sistema de control de una línea de producción utilizando PLC, así como en el armado del tablero eléctrico."
   },
   {
     "objectID": "cv.html#educación",
@@ -187,54 +236,5 @@
     "title": "Currículum",
     "section": "Reconocimientos, cursos y certificaciones",
     "text": "Reconocimientos, cursos y certificaciones\n\nCertificaciones\n\nCSWP SolidWorks · 2019. Certificación profesional en el uso de SolidWorks.\nGoogle IT Automation with Python · 2022. Programa de seis cursos sobre automatización con Python de Google a través de Coursera.\nLabVIEW · 2019. Certificación a nivel asociado en el uso de LabVIEW.\n\n\n\nCursos\n\nMeIA · 2023. Macroentrenamiento en Inteligencia Artificial ofertado por la Red de Macrouniversidades Públicas de América Latina y el Caribe.\nPython para ingeniería · 2023. Curso sobre análisis y procesamiento de datos con Python ofertado por la UNAM a través de Coursera.\n\n\n\nReconocimientos\n\nDiploma · 2019. Primer lugar en la Tercera Olimpiada de Matemáticas de la Universidad Tecnológica de Emiliano Zapata.\nCongreso · 2023. Mención honorífica en el XXXIII Congreso de Investigación CUAM-ACMor, categoría Físico-Matemático, con el proyecto “Diseño y construcción de un invernadero ecológico a base de residuos plásticos en NC School”.\nReconocimiento · 2024. Participación como ponente en el Conversatorio de edificaciones sostenibles: simulaciones y digitalización para la descarbonización.\nCongreso · 2025. Mención honorífica en el XXXV Congreso de Investigación CUAM-ACMor, categoría Físico-Matemático, con el proyecto “Green motion: ¿Y tú cómo te mueves?”."
-  },
-  {
-    "objectID": "en/contacto.html",
-    "href": "en/contacto.html",
-    "title": "Contact",
-    "section": "",
-    "text": "Email: landajulioc@gmail.com\n\nORCID: 0009-0006-2067-6624\n\nLinkedIn: LinkedIn\n\nGitHub: @JulioLanda4"
-  },
-  {
-    "objectID": "en/index.html",
-    "href": "en/index.html",
-    "title": "Julio Landa",
-    "section": "",
-    "text": "Mechatronics engineer with a master’s degree in Renewable Energy, specializing in bioclimatic design, thermal comfort, and with an interest in solar thermal energy and automation. I work with Python for data acquisition, analysis, and visualization, developing reproducible and clear solutions. I am motivated by research and science, always seeking to combine technology with creativity to generate useful and humane projects."
-  },
-  {
-    "objectID": "en/index.html#education",
-    "href": "en/index.html#education",
-    "title": "Julio Landa",
-    "section": "Education",
-    "text": "Education\n\nM.Sc. in Renewable Energy — IER‑UNAM (2023–2025)\nB.Eng. in Mechatronics — Universidad Tecnológica de Emiliano Zapata (UTEZ) (2018–2020)"
-  },
-  {
-    "objectID": "en/index.html#experience",
-    "href": "en/index.html#experience",
-    "title": "Julio Landa",
-    "section": "Experience",
-    "text": "Experience\n\nPhysics and Mathematics Teacher — NC School (2024–2025)\nHW/SW Developer (Thermal Comfort IoT) — IER‑UNAM (2023–2025)"
-  },
-  {
-    "objectID": "en/index.html#highlights",
-    "href": "en/index.html#highlights",
-    "title": "Julio Landa",
-    "section": "Highlights",
-    "text": "Highlights\n\nIoT smartwatch for thermal comfort\nOpen design based on XIAO ESP32C3, MAX30102, GY‑906; LVGL UI and ThingsBoard backend.\nThesis · Article · Repository"
-  },
-  {
-    "objectID": "en/publicaciones.html",
-    "href": "en/publicaciones.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Thesis\n\n\nOpen‑technology IoT smartwatch for collecting thermal comfort data\n\n\nDevelopment of a smartwatch and IoT platform for thermal comfort surveys and physiological measurements.\n\n\nMaster’s thesis IoT Thermal comfort The thesis has been approved and is pending publication.\n\n\nSite\n\n\n\n\n\n\nArticle\n\n\nIoT smartwatch based on open technologies for the collection of thermal comfort data\n\n\nOpen design, data acquisition methodology and experimental validation. HardwareX, 2025\n\n\nArticle HardwareX 2025\n\n\nDOI"
-  },
-  {
-    "objectID": "proyectos.html",
-    "href": "proyectos.html",
-    "title": "Proyectos",
-    "section": "",
-    "text": "IoT_Reloj_Confort\n\n\nReloj inteligente e infraestructura IoT para encuestas de confort térmico y medición de variables fisiológicas (XIAO ESP32C3, MAX30102, GY-906, LVGL). Incluye firmware, interfaz y backend en ThingsBoard.\n\n\nC ESP32C3 LVGL ThingsBoard\n\n\n\nTesis Artículo Repositorio\n\n\n\n\n\n\nLampara_acrilico\n\n\nLámpara artesanal de acrílico modelada en SolidWorks. Incluye ensambles y piezas (SLDASM/SLDPRT), renders y archivos para fabricación.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nMecanismos\n\n\nColección de levas, mecanismos y un rodamiento modelados en SolidWorks. Contiene ensambles y piezas con vistas previas.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nMicroondas_LabVIEW\n\n\nProyecto “Microondas” implementado en LabVIEW. Incluye VIs/CTLs y archivo de proyecto, con imágenes de referencia e instrucciones de apertura.\n\n\nLabVIEW\n\n\n\nRepositorio\n\n\n\n\n\n\nPrenda_generadora\n\n\nProyecto de investigación de prenda generadora de energía. Reúne evidencias, reportes, programas en LabVIEW, diagramas en Proteus, datos y resultados.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nAjuste_Calificaciones\n\n\nSitio en Quarto para cálculo y ajuste de calificaciones por unidad. Diseñado para despliegue en GitHub Pages.\n\n\nHTML Quarto GitHub Pages Educación\n\n\n\nSitio Repositorio\n\n\n\n\n\n\nEstrategias_bioclimaticas_vivienda\n\n\nDiseño bioclimático en clima semifrío seco (Pachuca, Hidalgo). Evalúa estrategias pasivas como absortancia, ventanas Low‑e y sistemas con masa térmica para reducir grados‑hora de disconfort y mejorar el confort térmico.\n\n\nHTML Bioclimática\n\n\n\nRepositorio\n\n\n\n\n\n\nMEIA-2023-Portafolio\n\n\nPortafolio del Macro Entrenamiento en Inteligencia Artificial 2023: anomalías, bioinformática, contaminantes, geodatos y proyecto final sobre calidad del aire en CDMX.\n\n\nJupyter IA Datos\n\n\n\nRepositorio\n\n\n\n\n\n\nSimulacion_ventilacion_natural\n\n\nSimulación de ventilación natural en cavidades mediante volúmenes finitos y el algoritmo SIMPLEC. Incluye códigos en Fortran, resultados y reporte con campos de velocidad y presión.\n\n\nFortran CFD\n\n\n\nRepositorio\n\n\n\n\n\n\nAjedrez-impresion3d\n\n\nConjunto de piezas de ajedrez modeladas en SolidWorks y listas para impresión 3D. Incluye archivos fuente (SLDPRT) y exportados a STL, además de imágenes y renders de referencia.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nMesa_giratoria_impresion-3d\n\n\nMesa giratoria con diseño mecánico en SolidWorks, piezas para impresión 3D y diagrama eléctrico en Fritzing. Contiene ensambles y partes (SLDASM/SLDPRT), archivos STL e imágenes del ensamblaje.\n\n\nOpen-Source\n\n\n\nRepositorio\n\n\n\n\n\n\nSistema_medicion_apertura_ventanas Privado\n\n\nSistema de registro de apertura/cierre de ventanas con sello temporal para estudios de confort y ventilación. Repositorio privado. Rol: colaborador.\n\n\nHardware Firmware IoT Confort/Ventilación Colaborador\n\n\n\nRepo privado\n\n\n\n\n\n\nDH2O Privado\n\n\nRepositorio privado del proyecto DH2O (lata‑mas). Rol: colaborador.\n\n\nColaborador Privado\n\n\n\nRepo privado"
   }
 ]
