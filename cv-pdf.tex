@@ -8,7 +8,9 @@
 \usepackage{fontawesome5}
 
 \pagestyle{empty}
-\setmainfont{Arial}
+\IfFontExistsTF{Liberation Sans}
+  {\setmainfont{Liberation Sans}}
+  {\setmainfont{TeX Gyre Heros}}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.24em}
 \setlength{\columnsep}{0.9cm}
